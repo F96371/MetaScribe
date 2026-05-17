@@ -1,0 +1,6 @@
+# transcript 模块依赖
+
+# Python >= 3.12
+# ffmpeg >= 8.0 (含 ffprobe)
+
+openai-whisper>=20250625

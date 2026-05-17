@@ -1,0 +1,15 @@
+# ingest 模块依赖
+# 安装: pip install -r requirements.txt
+
+# Python 系统依赖（非 pip 安装，需单独配置）
+# - Python >= 3.12
+# - ffmpeg >= 8.0 (含 ffprobe)
+# - yt-dlp >= 2026.3.17
+
+# pip 依赖
+yt-dlp==2026.3.17
+
+# 无其他 pip 依赖。
+# ingest 模块核心逻辑只使用 Python 标准库：
+#   json, os, subprocess, sys, dataclasses, pathlib
+# yt-dlp / ffmpeg / ffprobe 作为外部 CLI 工具调用
