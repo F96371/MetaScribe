@@ -1,0 +1,14 @@
+{
+  "visual_version": "v1",
+  "video_id": "test_empty_visual",
+  "visuals": [],
+  "skipped": [],
+  "stats": {
+    "total_chapters": 2,
+    "total_visuals": 0,
+    "skipped_count": 2,
+    "type_distribution": {},
+    "coverage": 0
+  },
+  "warnings": ["全视频无可视化生成"]
+}

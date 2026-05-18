@@ -1,0 +1,48 @@
+{
+  "semantic_version": "v1",
+  "prompt_version": "v1",
+  "video_id": "jNQXAC9IVRw",
+  "chapter_count": 2,
+  "chapters": [
+    {
+      "id": "ch01",
+      "title": "Intro",
+      "start_ts": 0.0,
+      "end_ts": 5.0,
+      "segment_ids_count": 2,
+      "segment_ids_range": [
+        0,
+        1
+      ],
+      "point_count": 1,
+      "point_types": [
+        "context"
+      ],
+      "point_type_counts": {
+        "context": 1
+      },
+      "ref_segment_ids": [
+        1
+      ],
+      "all_refs_valid": true
+    },
+    {
+      "id": "ch02",
+      "title": "The cool thing",
+      "start_ts": 5.0,
+      "end_ts": 17.0,
+      "segment_ids_count": 2,
+      "segment_ids_range": [
+        2,
+        3
+      ],
+      "point_count": 0,
+      "point_types": [],
+      "point_type_counts": {},
+      "ref_segment_ids": [],
+      "all_refs_valid": true
+    }
+  ],
+  "total_points": 1,
+  "warning_count": 1
+}

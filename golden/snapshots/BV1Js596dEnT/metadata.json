@@ -1,0 +1,36 @@
+{
+  "video_id": "BV1Js596dEnT",
+  "title": "学习浙江宣传《“基本盘”不该成为被嘲讽对象》",
+  "duration": 488.710385,
+  "uploader": "青落同学",
+  "source_url": "https://www.bilibili.com/video/BV1Js596dEnT",
+  "extracted_at": "<STRIPPED>",
+  "description": "",
+  "chapters": [],
+  "tags": [
+    "社会观察局",
+    "正能量",
+    "基本盘",
+    "浙江宣传",
+    "收入",
+    "汉奸"
+  ],
+  "view_count": 330097,
+  "like_count": 18971,
+  "upload_date": "20260514",
+  "files": [
+    {
+      "path": "outputs/BV1Js596dEnT/audio.mp3",
+      "format": "mp3",
+      "size_bytes": 13692955,
+      "duration_seconds": 488.710385
+    },
+    {
+      "path": "outputs/BV1Js596dEnT/cover.jpg",
+      "format": "jpg",
+      "size_bytes": 153666,
+      "duration_seconds": null
+    }
+  ],
+  "warnings": []
+}

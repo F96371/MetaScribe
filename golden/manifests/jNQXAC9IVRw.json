@@ -1,0 +1,36 @@
+{
+  "video_id": "jNQXAC9IVRw",
+  "title": "Me at the zoo",
+  "duration_seconds": 19.005542,
+  "frozen_at": "2026-05-18T00:00:00Z",
+  "schema_versions": {
+    "transcript_version": "v1",
+    "semantic_version": "v1",
+    "prompt_version": "v1",
+    "visual_version": "v1",
+    "render_version": "v1"
+  },
+  "file_hashes": {
+    "metadata.json": "b589f2ce603f790a84aa1909eca02bb9e8f66dd02eafc182b77163105370c406",
+    "segments.json": "2f86676ef7bd5cf0721019da1cfc6243904a0861dd89d3fe237aed937dea9ab2",
+    "index.html": "8d4cb3ec0652e04527c055f721226f549a408ca6449da549a901e5d5c62a1319"
+  },
+  "metrics": {
+    "segment_count": 4,
+    "transcript_warnings": 0,
+    "metadata_warnings": 0,
+    "chapter_count": 2,
+    "total_points": 1,
+    "points_by_type": {
+      "context": 1
+    },
+    "semantic_warnings": 1,
+    "visual_count": 0,
+    "skipped_count": 2,
+    "visual_warnings": 1,
+    "visual_type_distribution": {},
+    "html_size_bytes": 15668,
+    "html_svg_count": 0,
+    "html_chapter_sections": 2
+  }
+}

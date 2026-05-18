@@ -1,0 +1,301 @@
+{
+  "visual_version": "v1",
+  "video_id": "HtSuA80QTyo",
+  "visual_count": 9,
+  "skipped_count": 0,
+  "visuals": [
+    {
+      "id": "vis01",
+      "chapter_id": "ch01",
+      "svg_type": "chain",
+      "title": "算法效率驱动的因果链",
+      "trigger_points": [
+        "conclusion",
+        "context"
+      ],
+      "layout_hint": "horizontal",
+      "data_keys": [
+        "edges",
+        "nodes"
+      ],
+      "ref_count": 13,
+      "ref_segment_ids": [
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        64,
+        68,
+        70,
+        73,
+        74,
+        79,
+        80
+      ],
+      "confidence": 0.5
+    },
+    {
+      "id": "vis02",
+      "chapter_id": "ch02",
+      "svg_type": "flowchart",
+      "title": "课程学习路径概览",
+      "trigger_points": [
+        "conclusion",
+        "context",
+        "problem",
+        "step"
+      ],
+      "layout_hint": "vertical",
+      "data_keys": [
+        "edges",
+        "nodes"
+      ],
+      "ref_count": 20,
+      "ref_segment_ids": [
+        84,
+        88,
+        89,
+        92,
+        93,
+        95,
+        96,
+        97,
+        106,
+        108,
+        111,
+        115,
+        117,
+        119,
+        121,
+        125,
+        128,
+        134,
+        136,
+        138
+      ],
+      "confidence": 0.5
+    },
+    {
+      "id": "vis03",
+      "chapter_id": "ch03",
+      "svg_type": "chain",
+      "title": "算法课因果学习链",
+      "trigger_points": [
+        "conclusion",
+        "context",
+        "pitfall",
+        "problem",
+        "step"
+      ],
+      "layout_hint": "horizontal",
+      "data_keys": [
+        "edges",
+        "nodes"
+      ],
+      "ref_count": 13,
+      "ref_segment_ids": [
+        140,
+        143,
+        157,
+        163,
+        165,
+        178,
+        183,
+        193,
+        199,
+        218,
+        233,
+        237,
+        252
+      ],
+      "confidence": 0.5
+    },
+    {
+      "id": "vis04",
+      "chapter_id": "ch04",
+      "svg_type": "layered",
+      "title": "峰值查找问题层析",
+      "trigger_points": [
+        "conclusion",
+        "context",
+        "problem"
+      ],
+      "layout_hint": "vertical",
+      "data_keys": [
+        "layers"
+      ],
+      "ref_count": 8,
+      "ref_segment_ids": [
+        270,
+        274,
+        290,
+        292,
+        295,
+        304,
+        306,
+        309
+      ],
+      "confidence": 0.5
+    },
+    {
+      "id": "vis05",
+      "chapter_id": "ch05",
+      "svg_type": "chain",
+      "title": "朴素算法到分治的推导链",
+      "trigger_points": [
+        "conclusion",
+        "context",
+        "problem",
+        "step"
+      ],
+      "layout_hint": "horizontal",
+      "data_keys": [
+        "edges",
+        "nodes"
+      ],
+      "ref_count": 9,
+      "ref_segment_ids": [
+        313,
+        315,
+        329,
+        340,
+        341,
+        348,
+        398,
+        400,
+        427
+      ],
+      "confidence": 0.5
+    },
+    {
+      "id": "vis06",
+      "chapter_id": "ch06",
+      "svg_type": "flowchart",
+      "title": "分治峰值查找算法流程",
+      "trigger_points": [
+        "conclusion",
+        "context",
+        "problem",
+        "step"
+      ],
+      "layout_hint": "vertical",
+      "data_keys": [
+        "edges",
+        "nodes"
+      ],
+      "ref_count": 9,
+      "ref_segment_ids": [
+        496,
+        497,
+        500,
+        511,
+        517,
+        519,
+        544,
+        549,
+        557
+      ],
+      "confidence": 0.5
+    },
+    {
+      "id": "vis07",
+      "chapter_id": "ch07",
+      "svg_type": "flowchart",
+      "title": "1D峰值查找算法复杂度推导",
+      "trigger_points": [
+        "conclusion",
+        "context",
+        "step"
+      ],
+      "layout_hint": "vertical",
+      "data_keys": [
+        "edges",
+        "nodes"
+      ],
+      "ref_count": 8,
+      "ref_segment_ids": [
+        564,
+        569,
+        582,
+        587,
+        589,
+        591,
+        594,
+        601
+      ],
+      "confidence": 0.5
+    },
+    {
+      "id": "vis08",
+      "chapter_id": "ch08",
+      "svg_type": "flowchart",
+      "title": "2D贪心上升算法流程",
+      "trigger_points": [
+        "conclusion",
+        "context",
+        "pitfall",
+        "problem",
+        "step"
+      ],
+      "layout_hint": "vertical",
+      "data_keys": [
+        "edges",
+        "nodes"
+      ],
+      "ref_count": 9,
+      "ref_segment_ids": [
+        621,
+        629,
+        639,
+        645,
+        660,
+        671,
+        712,
+        743,
+        751
+      ],
+      "confidence": 0.5
+    },
+    {
+      "id": "vis09",
+      "chapter_id": "ch09",
+      "svg_type": "flowchart",
+      "title": "递归2D峰值查找流程",
+      "trigger_points": [
+        "conclusion",
+        "context",
+        "problem",
+        "step"
+      ],
+      "layout_hint": "vertical",
+      "data_keys": [
+        "edges",
+        "nodes"
+      ],
+      "ref_count": 10,
+      "ref_segment_ids": [
+        787,
+        789,
+        791,
+        794,
+        796,
+        798,
+        802,
+        804,
+        827,
+        829
+      ],
+      "confidence": 0.5
+    }
+  ],
+  "skipped_chapter_ids": [],
+  "type_distribution": {
+    "chain": 3,
+    "flowchart": 5,
+    "layered": 1
+  },
+  "coverage": 1.0,
+  "warning_count": 0
+}

@@ -1,0 +1,155 @@
+{
+  "visual_version": "v1",
+  "video_id": "BV1Js596dEnT",
+  "visual_count": 4,
+  "skipped_count": 0,
+  "visuals": [
+    {
+      "id": "vis01",
+      "chapter_id": "ch01",
+      "svg_type": "decision_tree",
+      "title": "基本盘与汉奸帽子互扣逻辑",
+      "trigger_points": [
+        "conclusion",
+        "context",
+        "pitfall",
+        "problem"
+      ],
+      "layout_hint": "horizontal",
+      "data_keys": [
+        "root"
+      ],
+      "ref_count": 14,
+      "ref_segment_ids": [
+        1,
+        2,
+        5,
+        8,
+        9,
+        10,
+        33,
+        34,
+        35,
+        36,
+        37,
+        43,
+        45,
+        46
+      ],
+      "confidence": 0.5
+    },
+    {
+      "id": "vis02",
+      "chapter_id": "ch02",
+      "svg_type": "chain",
+      "title": "中国发展不足的因果链条",
+      "trigger_points": [
+        "conclusion",
+        "context",
+        "problem"
+      ],
+      "layout_hint": "horizontal",
+      "data_keys": [
+        "edges",
+        "nodes"
+      ],
+      "ref_count": 9,
+      "ref_segment_ids": [
+        75,
+        82,
+        86,
+        89,
+        94,
+        101,
+        104,
+        112,
+        114
+      ],
+      "confidence": 0.5
+    },
+    {
+      "id": "vis03",
+      "chapter_id": "ch03",
+      "svg_type": "matrix",
+      "title": "物质困境、社会分配与个人感受的对比矩阵",
+      "trigger_points": [
+        "conclusion",
+        "context",
+        "pitfall",
+        "problem",
+        "step"
+      ],
+      "layout_hint": "grid",
+      "data_keys": [
+        "columns",
+        "rows"
+      ],
+      "ref_count": 20,
+      "ref_segment_ids": [
+        139,
+        140,
+        141,
+        143,
+        144,
+        151,
+        152,
+        153,
+        157,
+        158,
+        159,
+        161,
+        164,
+        165,
+        166,
+        167,
+        168,
+        172,
+        173,
+        174
+      ],
+      "confidence": 0.5
+    },
+    {
+      "id": "vis04",
+      "chapter_id": "ch04",
+      "svg_type": "matrix",
+      "title": "分配改革统战效应对比矩阵",
+      "trigger_points": [
+        "conclusion",
+        "problem",
+        "step"
+      ],
+      "layout_hint": "grid",
+      "data_keys": [
+        "columns",
+        "rows"
+      ],
+      "ref_count": 14,
+      "ref_segment_ids": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        188,
+        189,
+        190
+      ],
+      "confidence": 0.5
+    }
+  ],
+  "skipped_chapter_ids": [],
+  "type_distribution": {
+    "decision_tree": 1,
+    "chain": 1,
+    "matrix": 2
+  },
+  "coverage": 1.0,
+  "warning_count": 0
+}

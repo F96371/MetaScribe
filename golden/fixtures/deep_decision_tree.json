@@ -1,0 +1,80 @@
+{
+  "visual_version": "v1",
+  "video_id": "test_deep_tree",
+  "visuals": [
+    {
+      "id": "vis01",
+      "chapter_id": "ch01",
+      "svg_type": "decision_tree",
+      "title": "Deep Decision Tree (depth > 8)",
+      "rationale": "Testing deep recursion truncation",
+      "trigger_points": ["pitfall"],
+      "data": {
+        "root": {
+          "label": "Root",
+          "branches": [
+            {
+              "condition": "Level 1 A",
+              "branches": [
+                {
+                  "condition": "Level 2 A",
+                  "branches": [
+                    {
+                      "condition": "Level 3 A",
+                      "branches": [
+                        {
+                          "condition": "Level 4 A",
+                          "branches": [
+                            {
+                              "condition": "Level 5 A",
+                              "branches": [
+                                {
+                                  "condition": "Level 6 A",
+                                  "branches": [
+                                    {
+                                      "condition": "Level 7 A",
+                                      "branches": [
+                                        {
+                                          "condition": "Level 8 A (should truncate)",
+                                          "branches": [
+                                            {"condition": "Level 9 A", "result": "Too deep"}
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "condition": "Level 1 B",
+              "result": "Shallow branch"
+            }
+          ]
+        }
+      },
+      "semantic_refs": [
+        {"segment_id": 1, "ts": 1.0, "quote": "test"}
+      ],
+      "layout_hint": "horizontal",
+      "confidence": 0.7
+    }
+  ],
+  "skipped": [],
+  "stats": {
+    "total_chapters": 1,
+    "total_visuals": 1,
+    "skipped_count": 0,
+    "type_distribution": {"decision_tree": 1},
+    "coverage": 1.0
+  },
+  "warnings": []
+}

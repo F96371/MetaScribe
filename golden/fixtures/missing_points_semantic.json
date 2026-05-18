@@ -1,0 +1,32 @@
+{
+  "semantic_version": "v1",
+  "prompt_version": "v1",
+  "video_id": "test_missing_points",
+  "chapters": [
+    {
+      "id": "ch01",
+      "title": "Chapter With Points",
+      "start_ts": 0.0,
+      "end_ts": 10.0,
+      "segment_ids": [0, 1],
+      "points": [
+        {
+          "type": "context",
+          "content": "This chapter has points",
+          "confidence": 0.9,
+          "refs": [{"segment_id": 0, "ts": 5.0, "quote": "test quote"}]
+        }
+      ]
+    },
+    {
+      "id": "ch02",
+      "title": "Chapter Without Points",
+      "start_ts": 10.0,
+      "end_ts": 20.0,
+      "segment_ids": [2, 3]
+    }
+  ],
+  "warnings": [
+    "ch02: 无有效信息点"
+  ]
+}

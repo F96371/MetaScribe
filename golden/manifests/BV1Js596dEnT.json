@@ -1,0 +1,44 @@
+{
+  "video_id": "BV1Js596dEnT",
+  "title": "学习浙江宣传《“基本盘”不该成为被嘲讽对象》",
+  "duration_seconds": 488.710385,
+  "frozen_at": "2026-05-18T00:00:00Z",
+  "schema_versions": {
+    "transcript_version": "v1",
+    "semantic_version": "v1",
+    "prompt_version": "v1",
+    "visual_version": "v1",
+    "render_version": "v1"
+  },
+  "file_hashes": {
+    "metadata.json": "7861f01cf4c2830812793660fe2c52ed1a35616cad3cd689e8d2c8c1aaff318c",
+    "segments.json": "c51e7ba80646d1297641f369972cd81a794627bd0e68d3ec3e66222a81f1dfd7",
+    "index.html": "9767f0d34012a239cf43580052b70e4f64171934ee3f370491b5d0eae7c8963f"
+  },
+  "metrics": {
+    "segment_count": 198,
+    "transcript_warnings": 0,
+    "metadata_warnings": 0,
+    "chapter_count": 4,
+    "total_points": 44,
+    "points_by_type": {
+      "context": 9,
+      "problem": 13,
+      "conclusion": 16,
+      "pitfall": 4,
+      "step": 2
+    },
+    "semantic_warnings": 0,
+    "visual_count": 4,
+    "skipped_count": 0,
+    "visual_warnings": 0,
+    "visual_type_distribution": {
+      "decision_tree": 1,
+      "chain": 1,
+      "matrix": 2
+    },
+    "html_size_bytes": 72870,
+    "html_svg_count": 4,
+    "html_chapter_sections": 4
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "captured_at": "2026-05-18T14:15:57Z",
+  "schema_version": "v1",
+  "videos": {
+    "jNQXAC9IVRw": {
+      "duration_seconds": 19.005542,
+      "stages": {
+        "render": {
+          "wall_seconds": 0.028,
+          "html_size_bytes": 15668,
+          "svg_count": 0
+        },
+        "semantic_tokens_estimated": 485,
+        "visual_tokens_estimated": 214,
+        "chapter_count": 2,
+        "point_count": 1,
+        "visual_count": 0
+      }
+    },
+    "BV1Js596dEnT": {
+      "duration_seconds": 488.710385,
+      "stages": {
+        "render": {
+          "wall_seconds": 0.003,
+          "html_size_bytes": 72870,
+          "svg_count": 4
+        },
+        "semantic_tokens_estimated": 15627,
+        "visual_tokens_estimated": 10119,
+        "chapter_count": 4,
+        "point_count": 44,
+        "visual_count": 4
+      }
+    },
+    "HtSuA80QTyo": {
+      "duration_seconds": 3201.044917,
+      "stages": {
+        "render": {
+          "wall_seconds": 0.006,
+          "html_size_bytes": 107935,
+          "svg_count": 9
+        },
+        "semantic_tokens_estimated": 34613,
+        "visual_tokens_estimated": 18579,
+        "chapter_count": 9,
+        "point_count": 95,
+        "visual_count": 9
+      }
+    }
+  }
+}

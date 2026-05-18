@@ -1,0 +1,38 @@
+{
+  "visual_version": "v1",
+  "video_id": "test_broken_refs",
+  "visuals": [
+    {
+      "id": "vis01",
+      "chapter_id": "ch01",
+      "svg_type": "flowchart",
+      "title": "Broken Refs Test",
+      "rationale": "Testing invalid segment_id refs",
+      "trigger_points": ["step"],
+      "data": {
+        "nodes": [
+          {"id": "n1", "label": "Step 1", "type": "process"},
+          {"id": "n2", "label": "Step 2", "type": "process"}
+        ],
+        "edges": [
+          {"from": "n1", "to": "n2"}
+        ]
+      },
+      "semantic_refs": [
+        {"segment_id": 99999, "ts": 999.0, "quote": "This segment does not exist"},
+        {"segment_id": -1, "ts": -1.0, "quote": "Invalid negative segment id"}
+      ],
+      "layout_hint": "vertical",
+      "confidence": 0.8
+    }
+  ],
+  "skipped": [],
+  "stats": {
+    "total_chapters": 1,
+    "total_visuals": 1,
+    "skipped_count": 0,
+    "type_distribution": {"flowchart": 1},
+    "coverage": 1.0
+  },
+  "warnings": []
+}

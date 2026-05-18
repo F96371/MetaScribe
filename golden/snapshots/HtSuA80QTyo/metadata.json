@@ -1,0 +1,93 @@
+{
+  "video_id": "HtSuA80QTyo",
+  "title": "Lecture 1: Algorithmic Thinking, Peak Finding",
+  "duration": 3201.044917,
+  "uploader": "MIT OpenCourseWare",
+  "source_url": "https://www.youtube.com/watch?v=HtSuA80QTyo",
+  "extracted_at": "<STRIPPED>",
+  "description": "MIT 6.006 Introduction to Algorithms, Fall 2011\nView the complete course: http://ocw.mit.edu/6-006F11\nInstructor: Srini Devadas\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+  "chapters": [
+    {
+      "start": 0.0,
+      "end": 275.0,
+      "title": "Intro",
+      "is_generated": false
+    },
+    {
+      "start": 275.0,
+      "end": 507.0,
+      "title": "Class Overview",
+      "is_generated": false
+    },
+    {
+      "start": 507.0,
+      "end": 925.0,
+      "title": "Content",
+      "is_generated": false
+    },
+    {
+      "start": 925.0,
+      "end": 1105.0,
+      "title": "Problem Statement",
+      "is_generated": false
+    },
+    {
+      "start": 1105.0,
+      "end": 1645.0,
+      "title": "Simple Algorithm",
+      "is_generated": false
+    },
+    {
+      "start": 1645.0,
+      "end": 1975.0,
+      "title": "recursive algorithm",
+      "is_generated": false
+    },
+    {
+      "start": 1975.0,
+      "end": 2155.0,
+      "title": "computation",
+      "is_generated": false
+    },
+    {
+      "start": 2155.0,
+      "end": 2725.0,
+      "title": "greedy ascent",
+      "is_generated": false
+    },
+    {
+      "start": 2725.0,
+      "end": 3201,
+      "title": "example",
+      "is_generated": false
+    }
+  ],
+  "tags": [
+    "algorithm analysis",
+    "scalability",
+    "peak finding",
+    "divide and conquer",
+    "recurrence relation",
+    "complexity",
+    "asymptotic complexity",
+    "greedy ascent"
+  ],
+  "view_count": 5934124,
+  "like_count": 75492,
+  "upload_date": "20130114",
+  "files": [
+    {
+      "path": "outputs/HtSuA80QTyo/audio.mp3",
+      "format": "mp3",
+      "size_bytes": 60422780,
+      "duration_seconds": 3201.044917
+    },
+    {
+      "path": "outputs/HtSuA80QTyo/cover.jpg",
+      "format": "jpg",
+      "size_bytes": 39862,
+      "duration_seconds": null
+    }
+  ],
+  "warnings": []
+}

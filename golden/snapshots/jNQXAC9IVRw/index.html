@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="zh" data-theme>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="MetaScribe render v1">
+<meta name="render-version" content="v1">
+<meta name="prompt-version" content="v1">
+<meta name="rendered-at" content="<STRIPPED>">
+<title>Me at the zoo — MetaScribe</title>
+<style>
+/* MetaScribe Render v1 — 内联样式 */
+:root {
+  /* 亮色主题 */
+  --bg: #ffffff;
+  --bg-secondary: #f8fafc;
+  --bg-card: #ffffff;
+  --text: #1e293b;
+  --text-secondary: #64748b;
+  --text-muted: #94a3b8;
+  --border: #e2e8f0;
+  --accent: #3b82f6;
+  --accent-hover: #2563eb;
+  --shadow: 0 1px 3px rgba(0,0,0,.08);
+  --shadow-md: 0 4px 12px rgba(0,0,0,.1);
+
+  /* 语义类型颜色 */
+  --color-problem: #ef4444;
+  --color-step: #3b82f6;
+  --color-pitfall: #f59e0b;
+  --color-conclusion: #10b981;
+  --color-context: #8b5cf6;
+
+  --color-problem-bg: #fef2f2;
+  --color-step-bg: #eff6ff;
+  --color-pitfall-bg: #fffbeb;
+  --color-conclusion-bg: #ecfdf5;
+  --color-context-bg: #f5f3ff;
+
+  /* SVG 变量（继承到 inline SVG） */
+  --svg-bg: #ffffff;
+  --svg-stroke: #cbd5e1;
+  --svg-text: #334155;
+  --svg-text-secondary: #94a3b8;
+  --svg-node-fill: #f1f5f9;
+  --svg-node-start: #dbeafe;
+  --svg-node-end: #d1fae5;
+  --svg-node-decision: #fef3c7;
+  --svg-node-cause: #fee2e2;
+  --svg-node-effect: #dbeafe;
+  --svg-accent: #3b82f6;
+  --svg-critical: #ef4444;
+  --svg-warning: #f59e0b;
+  --svg-info: #3b82f6;
+
+  --font-mono: "Cascadia Code", "Fira Code", "JetBrains Mono", Consolas, monospace;
+  --radius: 8px;
+  --max-width: 1100px;
+  --sidebar-width: 260px;
+}
+
+[data-theme="dark"] {
+  --bg: #0f172a;
+  --bg-secondary: #1e293b;
+  --bg-card: #1e293b;
+  --text: #e2e8f0;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --border: #334155;
+  --accent: #60a5fa;
+  --accent-hover: #93bbfd;
+  --shadow: 0 1px 3px rgba(0,0,0,.4);
+  --shadow-md: 0 4px 12px rgba(0,0,0,.5);
+
+  --color-problem-bg: #3b1212;
+  --color-step-bg: #0f1d3d;
+  --color-pitfall-bg: #3d2e0a;
+  --color-conclusion-bg: #0a2e1f;
+  --color-context-bg: #1a1035;
+
+  --svg-bg: #1e293b;
+  --svg-stroke: #475569;
+  --svg-text: #e2e8f0;
+  --svg-text-secondary: #94a3b8;
+  --svg-node-fill: #334155;
+  --svg-node-start: #1e3a5f;
+  --svg-node-end: #144d33;
+  --svg-node-decision: #4a3510;
+  --svg-node-cause: #4a2020;
+  --svg-node-effect: #1e3a5f;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f172a;
+    --bg-secondary: #1e293b;
+    --bg-card: #1e293b;
+    --text: #e2e8f0;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+    --border: #334155;
+    --accent: #60a5fa;
+    --accent-hover: #93bbfd;
+    --shadow: 0 1px 3px rgba(0,0,0,.4);
+    --shadow-md: 0 4px 12px rgba(0,0,0,.5);
+    --color-problem-bg: #3b1212;
+    --color-step-bg: #0f1d3d;
+    --color-pitfall-bg: #3d2e0a;
+    --color-conclusion-bg: #0a2e1f;
+    --color-context-bg: #1a1035;
+    --svg-bg: #1e293b;
+    --svg-stroke: #475569;
+    --svg-text: #e2e8f0;
+    --svg-text-secondary: #94a3b8;
+    --svg-node-fill: #334155;
+    --svg-node-start: #1e3a5f;
+    --svg-node-end: #144d33;
+    --svg-node-decision: #4a3510;
+    --svg-node-cause: #4a2020;
+    --svg-node-effect: #1e3a5f;
+  }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+.skip-link {
+  position: absolute; top: -100px; left: 8px;
+  background: var(--accent); color: #fff; padding: 4px 12px; border-radius: var(--radius);
+  z-index: 1000; text-decoration: none; font-size: 13px;
+}
+.skip-link:focus { top: 8px; }
+
+/* ---- header ---- */
+.page-header {
+  background: var(--bg-secondary); border-bottom: 1px solid var(--border);
+  padding: 20px 24px; position: sticky; top: 0; z-index: 100;
+  display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 12px;
+}
+.page-header h1 {
+  font-size: 18px; font-weight: 700; color: var(--text);
+  max-width: 600px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.header-meta { font-size: 12px; color: var(--text-secondary); display: flex; gap: 16px; flex-wrap: wrap; align-items: center; }
+.header-meta span { white-space: nowrap; }
+
+.theme-toggle {
+  background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 6px 12px; font-size: 13px; cursor: pointer; color: var(--text);
+  white-space: nowrap;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* ---- page layout ---- */
+.page-layout { display: flex; max-width: var(--max-width); margin: 0 auto; }
+
+/* ---- TOC sidebar ---- */
+.toc-sidebar {
+  width: var(--sidebar-width); flex-shrink: 0; position: sticky; top: 80px;
+  max-height: calc(100vh - 96px); overflow-y: auto; padding: 20px 16px;
+  border-right: 1px solid var(--border); background: var(--bg-secondary);
+  font-size: 13px;
+}
+.toc-title { font-size: 12px; font-weight: 600; text-transform: uppercase; color: var(--text-muted); margin-bottom: 12px; letter-spacing: .05em; }
+.toc-list { list-style: none; }
+.toc-list li { margin-bottom: 2px; }
+.toc-list a {
+  display: block; padding: 5px 8px; border-radius: 4px; color: var(--text-secondary);
+  text-decoration: none; transition: background .15s;
+}
+.toc-list a:hover, .toc-list a:focus { background: var(--bg); color: var(--text); }
+.toc-list a.toc-visual { padding-left: 20px; font-size: 12px; color: var(--text-muted); }
+
+.toc-mobile-toggle {
+  display: none; position: fixed; bottom: 20px; right: 20px; z-index: 200;
+  width: 44px; height: 44px; border-radius: 50%; background: var(--accent); color: #fff;
+  border: none; font-size: 20px; cursor: pointer; box-shadow: var(--shadow-md);
+}
+
+/* ---- main content ---- */
+main {
+  flex: 1; min-width: 0; padding: 32px 40px 80px;
+}
+
+/* ---- chapter section ---- */
+.chapter-section {
+  margin-bottom: 48px; padding-bottom: 32px;
+  border-bottom: 1px solid var(--border);
+  break-inside: avoid; page-break-inside: avoid;
+}
+.chapter-section:last-of-type { border-bottom: none; }
+
+.chapter-header {
+  margin-bottom: 20px;
+  break-inside: avoid; page-break-inside: avoid;
+}
+.chapter-header h2 {
+  font-size: 20px; font-weight: 700; color: var(--text); scroll-margin-top: 100px;
+}
+.chapter-time {
+  font-size: 12px; color: var(--text-muted); margin-top: 2px;
+  font-family: var(--font-mono);
+}
+
+/* ---- points grid ---- */
+.points-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-bottom: 28px; }
+.point-card {
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 14px; box-shadow: var(--shadow);
+  break-inside: avoid; page-break-inside: avoid;
+}
+.point-card .badge {
+  display: inline-block; font-size: 10px; font-weight: 600; text-transform: uppercase;
+  padding: 2px 8px; border-radius: 99px; margin-bottom: 6px; letter-spacing: .03em;
+}
+.badge-problem    { background: var(--color-problem-bg); color: var(--color-problem); }
+.badge-step       { background: var(--color-step-bg); color: var(--color-step); }
+.badge-pitfall    { background: var(--color-pitfall-bg); color: var(--color-pitfall); }
+.badge-conclusion { background: var(--color-conclusion-bg); color: var(--color-conclusion); }
+.badge-context    { background: var(--color-context-bg); color: var(--color-context); }
+
+.point-content { font-size: 14px; color: var(--text); margin-bottom: 6px; }
+.point-refs { display: flex; flex-wrap: wrap; gap: 4px; }
+.point-ref {
+  font-size: 11px; font-family: var(--font-mono); color: var(--accent);
+  text-decoration: none; cursor: pointer; padding: 1px 6px;
+  border-radius: 4px; background: var(--bg-secondary);
+  transition: background .15s;
+}
+.point-ref:hover { background: var(--border); color: var(--accent-hover); }
+
+/* ---- visual figure ---- */
+.visual-figure {
+  margin-top: 24px; margin-bottom: 32px;
+  border: 1px solid var(--border); border-radius: var(--radius);
+  overflow: hidden; box-shadow: var(--shadow);
+  break-inside: avoid; page-break-inside: avoid;
+}
+.visual-figure figcaption {
+  padding: 12px 16px; border-bottom: 1px solid var(--border);
+  background: var(--bg-secondary); font-size: 13px;
+}
+.visual-figure figcaption .fig-title { font-weight: 600; color: var(--text); }
+.visual-figure figcaption .fig-rationale { font-size: 12px; color: var(--text-secondary); margin-top: 2px; }
+.visual-figure figcaption .fig-refs { margin-top: 6px; display: flex; flex-wrap: wrap; gap: 4px; }
+.visual-figure .svg-wrapper {
+  padding: 12px; background: var(--svg-bg);
+  overflow-x: auto; -webkit-overflow-scrolling: touch;
+}
+.visual-figure .svg-wrapper svg { display: block; min-width: 100%; height: auto; }
+
+/* ---- skipped aside ---- */
+.skipped-note {
+  margin-top: 40px; padding: 16px; background: var(--bg-secondary);
+  border: 1px solid var(--border); border-radius: var(--radius);
+  font-size: 13px; color: var(--text-secondary);
+}
+.skipped-note h3 { font-size: 14px; color: var(--text); margin-bottom: 8px; }
+
+/* ---- footer ---- */
+.page-footer {
+  padding: 20px 40px 40px; text-align: center; font-size: 11px; color: var(--text-muted);
+  border-top: 1px solid var(--border); margin-top: 40px;
+}
+.page-footer span { display: block; margin-top: 4px; }
+
+/* ---- responsive ---- */
+@media (max-width: 768px) {
+  .toc-sidebar {
+    display: none; position: fixed; top: 0; left: 0; width: 280px; height: 100vh;
+    z-index: 300; padding-top: 60px; box-shadow: var(--shadow-md);
+  }
+  .toc-sidebar.open { display: block; }
+  .toc-mobile-toggle { display: flex; align-items: center; justify-content: center; }
+  main { padding: 20px 16px 80px; }
+  .points-grid { grid-template-columns: 1fr; }
+  .page-header h1 { font-size: 16px; max-width: 400px; }
+}
+
+@media (max-width: 480px) {
+  .header-meta { gap: 8px; }
+  .page-header { padding: 12px 16px; }
+  .visual-figure .svg-wrapper { padding: 6px; }
+}
+
+/* ---- print (Contract 3) ---- */
+@media print {
+  @page { margin: 1.5cm; size: A4; }
+  .toc-sidebar, .theme-toggle, .toc-mobile-toggle, .skip-link, .page-footer { display: none !important; }
+  .page-header { position: static; border-bottom: 2px solid #000; padding: 0 0 12px; margin-bottom: 24px; }
+  main { padding: 0; max-width: 100%; }
+  body { font-size: 12px; color: #000; background: #fff; }
+  .chapter-section, .point-card, .visual-figure, figure, figcaption, .svg-wrapper, .chapter-header {
+    break-inside: avoid; page-break-inside: avoid;
+  }
+  .visual-figure { border: 1px solid #ccc; box-shadow: none; }
+  .visual-figure .svg-wrapper svg { max-width: 100%; height: auto; }
+  .point-card { border: 1px solid #ddd; box-shadow: none; }
+  a { color: #000; text-decoration: none; }
+}
+
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main-content">跳转到主内容</a>
+<header class="page-header">
+<h1>Me at the zoo</h1>
+<div class="header-meta">
+<span>上传者: jawed</span>
+<span>时长: 0:19</span>
+<span>播放: 391,540,164</span>
+<button id="theme-toggle" class="theme-toggle" aria-label="切换主题">🌓 主题</button></div></header>
+<div class="page-layout">
+<nav class="toc-sidebar" id="toc-sidebar">
+<div class="toc-title">目录</div>
+<ol class="toc-list">
+<li><a href="#ch01">CH01 Intro</a></li>
+<li><a href="#ch02">CH02 The cool thing</a></li>
+</ol>
+</nav>
+<button class="toc-mobile-toggle" id="toc-mobile-toggle" aria-label="目录">☰</button>
+<main id="main-content">
+<section class="chapter-section" id="ch01" data-start-ts="0.0" data-end-ts="5.0"><div class="chapter-header"><h2>CH01 Intro</h2><div class="chapter-time">0:00 – 0:05</div></div><div class="points-grid"><article class="point-card" id="pt0" data-start="4.0" data-end="4.0"><span class="badge badge-context">背景</span><div class="point-content">这些大象有非常非常长的 clumps。</div><div class="point-refs"><span class="point-ref" data-ts="4.0">0:04</span></div></article></div></section><section class="chapter-section" id="ch02" data-start-ts="5.0" data-end-ts="17.0"><div class="chapter-header"><h2>CH02 The cool thing</h2><div class="chapter-time">0:05 – 0:17</div></div><div class="points-grid"></div></section>
+<aside class="skipped-note"><h3>跳过的章节</h3><ul><li>ch01: 信息点不足或类型不匹配（共 1 个点）</li>
+<li>ch02: 信息点不足或类型不匹配（共 0 个点）</li></ul></aside>
+</main>
+</div>
+<footer class="page-footer">
+<span>MetaScribe Render v1 · <STRIPPED></span>
+<span>2 章 · 0 个可视化图表 · {}</span>
+</footer>
+<script>
+(() => {
+  /* 主题切换 */
+  const toggle = document.getElementById('theme-toggle');
+  const stored = localStorage.getItem('metascribe-theme');
+  if (stored) document.documentElement.setAttribute('data-theme', stored);
+  toggle?.addEventListener('click', () => {
+    const cur = document.documentElement.getAttribute('data-theme');
+    const next = cur === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('metascribe-theme', next);
+  });
+
+  /* TOC 移动端 toggle */
+  const tocBtn = document.getElementById('toc-mobile-toggle');
+  const toc = document.getElementById('toc-sidebar');
+  tocBtn?.addEventListener('click', () => toc?.classList.toggle('open'));
+  document.addEventListener('click', (e) => {
+    if (toc && toc.classList.contains('open')
+        && !toc.contains(e.target) && e.target !== tocBtn) {
+      toc.classList.remove('open');
+    }
+  });
+
+  /* 时间戳导航 #t=123.5 */
+  let lastClickedTs = null;
+  let clickTimer = null;
+  document.querySelectorAll('.point-ref,.fig-ref').forEach(el => {
+    el.addEventListener('click', (e) => {
+      e.preventDefault();
+      const ts = parseFloat(el.dataset.ts);
+      if (isNaN(ts)) return;
+      /* 双击/二次点击复制时间戳 */
+      if (lastClickedTs === ts && clickTimer) {
+        clearTimeout(clickTimer);
+        clickTimer = null;
+        lastClickedTs = null;
+        navigator.clipboard?.writeText(_fmt(ts)).catch(()=>{});
+        el.style.outline = '2px solid var(--accent)';
+        setTimeout(() => el.style.outline = '', 600);
+        return;
+      }
+      lastClickedTs = ts;
+      clickTimer = setTimeout(() => { lastClickedTs = null; clickTimer = null; }, 400);
+
+      /* 在所有 segments 中查找包含此时间的 segment */
+      const cards = document.querySelectorAll('.point-card[data-start]');
+      for (const card of cards) {
+        const start = parseFloat(card.dataset.start);
+        const end = parseFloat(card.dataset.end);
+        if (ts >= start && ts < end) {
+          card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          card.style.outline = '2px solid var(--accent)';
+          setTimeout(() => card.style.outline = '', 1500);
+          return;
+        }
+      }
+      /* fallback: 滚到最接近的章节 */
+      const sections = document.querySelectorAll('.chapter-section');
+      for (const sec of sections) {
+        const s = parseFloat(sec.dataset.startTs);
+        const e = parseFloat(sec.dataset.endTs);
+        if (ts >= s && ts < e) {
+          sec.querySelector('h2')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          return;
+        }
+      }
+    });
+  });
+
+  function _fmt(s) {
+    const m = Math.floor(s / 60);
+    const sec = Math.floor(s % 60);
+    return m + ':' + String(sec).padStart(2, '0');
+  }
+
+  /* 平滑滚动偏移 */
+  const style = document.createElement('style');
+  style.textContent = 'h2[class] { scroll-margin-top: 96px; }';
+  document.head.appendChild(style);
+})();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+{
+  "visual_version": "v1",
+  "video_id": "test_oversized",
+  "visuals": [
+    {
+      "id": "vis01",
+      "chapter_id": "ch01",
+      "svg_type": "flowchart",
+      "title": "Oversized Flowchart Test (60+ nodes)",
+      "rationale": "Testing node/edge truncation",
+      "trigger_points": ["step"],
+      "data": {
+        "nodes": [
+          {"id": "n0", "label": "Start", "type": "start"},
+          {"id": "n1", "label": "Step 1", "type": "process"},
+          {"id": "n2", "label": "Step 2", "type": "process"},
+          {"id": "n3", "label": "Step 3", "type": "process"},
+          {"id": "n4", "label": "Step 4", "type": "process"},
+          {"id": "n5", "label": "Step 5", "type": "process"},
+          {"id": "n6", "label": "Step 6", "type": "process"},
+          {"id": "n7", "label": "Step 7", "type": "process"},
+          {"id": "n8", "label": "Step 8", "type": "process"},
+          {"id": "n9", "label": "Step 9", "type": "process"},
+          {"id": "n10", "label": "Step 10", "type": "process"},
+          {"id": "n11", "label": "Step 11", "type": "process"},
+          {"id": "n12", "label": "Step 12", "type": "process"},
+          {"id": "n13", "label": "Step 13", "type": "process"},
+          {"id": "n14", "label": "Step 14", "type": "process"},
+          {"id": "n15", "label": "Step 15", "type": "process"},
+          {"id": "n16", "label": "Step 16", "type": "process"},
+          {"id": "n17", "label": "Step 17", "type": "process"},
+          {"id": "n18", "label": "Step 18", "type": "process"},
+          {"id": "n19", "label": "Step 19", "type": "process"},
+          {"id": "n20", "label": "Step 20", "type": "process"},
+          {"id": "n21", "label": "Step 21 (should be truncated)", "type": "process"},
+          {"id": "n22", "label": "Step 22", "type": "process"},
+          {"id": "n23", "label": "Step 23", "type": "process"},
+          {"id": "n24", "label": "Step 24", "type": "process"},
+          {"id": "n25", "label": "Step 25", "type": "end"}
+        ],
+        "edges": [
+          {"from": "n0", "to": "n1"},
+          {"from": "n1", "to": "n2"},
+          {"from": "n2", "to": "n3"},
+          {"from": "n3", "to": "n4"},
+          {"from": "n4", "to": "n5"},
+          {"from": "n5", "to": "n6"},
+          {"from": "n6", "to": "n7"},
+          {"from": "n7", "to": "n8"},
+          {"from": "n8", "to": "n9"},
+          {"from": "n9", "to": "n10"},
+          {"from": "n10", "to": "n11"},
+          {"from": "n11", "to": "n12"},
+          {"from": "n12", "to": "n13"},
+          {"from": "n13", "to": "n14"},
+          {"from": "n14", "to": "n15"},
+          {"from": "n15", "to": "n16"},
+          {"from": "n16", "to": "n17"},
+          {"from": "n17", "to": "n18"},
+          {"from": "n18", "to": "n19"},
+          {"from": "n19", "to": "n20"},
+          {"from": "n20", "to": "n21"},
+          {"from": "n21", "to": "n22"},
+          {"from": "n22", "to": "n23"},
+          {"from": "n23", "to": "n24"},
+          {"from": "n24", "to": "n25"},
+          {"from": "n25", "to": "n0"}
+        ]
+      },
+      "semantic_refs": [
+        {"segment_id": 1, "ts": 1.0, "quote": "test"}
+      ],
+      "layout_hint": "vertical",
+      "confidence": 0.9
+    }
+  ],
+  "skipped": [],
+  "stats": {
+    "total_chapters": 1,
+    "total_visuals": 1,
+    "skipped_count": 0,
+    "type_distribution": {"flowchart": 1},
+    "coverage": 1.0
+  },
+  "warnings": []
+}

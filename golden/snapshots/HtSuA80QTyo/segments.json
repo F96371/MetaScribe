@@ -1,0 +1,5217 @@
+{
+  "video_id": "HtSuA80QTyo",
+  "model": "small.en",
+  "language": "en",
+  "duration": 3201.044917,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.44,
+      "text": "The following content is provided under a Creative",
+      "confidence": -0.1727
+    },
+    {
+      "start": 2.44,
+      "end": 3.96,
+      "text": "Commons license.",
+      "confidence": -0.1727
+    },
+    {
+      "start": 3.96,
+      "end": 6.28,
+      "text": "Your support will help MIT OpenCourseWare",
+      "confidence": -0.1727
+    },
+    {
+      "start": 6.28,
+      "end": 10.64,
+      "text": "continue to offer high quality educational resources for free.",
+      "confidence": -0.1727
+    },
+    {
+      "start": 10.64,
+      "end": 13.280000000000001,
+      "text": "To make a donation or view additional materials",
+      "confidence": -0.1727
+    },
+    {
+      "start": 13.280000000000001,
+      "end": 17.2,
+      "text": "from hundreds of MIT courses, visit MIT OpenCourseWare",
+      "confidence": -0.1727
+    },
+    {
+      "start": 17.2,
+      "end": 18.44,
+      "text": "at ocw.mit.edu.",
+      "confidence": -0.1727
+    },
+    {
+      "start": 22.64,
+      "end": 24.68,
+      "text": "Hi, I'm Srini Davidas.",
+      "confidence": -0.1727
+    },
+    {
+      "start": 24.68,
+      "end": 26.96,
+      "text": "I'm a professor of lecture engineering and computer",
+      "confidence": -0.1727
+    },
+    {
+      "start": 26.96,
+      "end": 27.6,
+      "text": "science.",
+      "confidence": -0.1727
+    },
+    {
+      "start": 27.68,
+      "end": 30.96,
+      "text": "I'm going to be co-lecturing 6006, Introduction",
+      "confidence": -0.2123
+    },
+    {
+      "start": 30.96,
+      "end": 34.92,
+      "text": "to Algorithms of this term, with Professor Eric Demaine.",
+      "confidence": -0.2123
+    },
+    {
+      "start": 34.92,
+      "end": 35.56,
+      "text": "Eric, say hi.",
+      "confidence": -0.2123
+    },
+    {
+      "start": 38.72,
+      "end": 43.64,
+      "text": "And we hope you're going to have a fun time in 6006 learning",
+      "confidence": -0.2123
+    },
+    {
+      "start": 43.64,
+      "end": 45.760000000000005,
+      "text": "a variety of algorithms.",
+      "confidence": -0.2123
+    },
+    {
+      "start": 45.760000000000005,
+      "end": 50.760000000000005,
+      "text": "What I want to do today is spend literally a minute or so",
+      "confidence": -0.2123
+    },
+    {
+      "start": 50.760000000000005,
+      "end": 55.040000000000006,
+      "text": "on administrative details, maybe even less.",
+      "confidence": -0.2123
+    },
+    {
+      "start": 55.040000000000006,
+      "end": 57.58,
+      "text": "What I'd like to do is to tell you to go to the website that's",
+      "confidence": -0.2123
+    },
+    {
+      "start": 58.559999999999995,
+      "end": 60.66,
+      "text": "listed up there and read it.",
+      "confidence": -0.1334
+    },
+    {
+      "start": 60.66,
+      "end": 62.14,
+      "text": "And you'll get all the information",
+      "confidence": -0.1334
+    },
+    {
+      "start": 62.14,
+      "end": 65.1,
+      "text": "you need about what this class is",
+      "confidence": -0.1334
+    },
+    {
+      "start": 65.1,
+      "end": 70.66,
+      "text": "about from a standpoint of syllabus, what's expected of you,",
+      "confidence": -0.1334
+    },
+    {
+      "start": 70.66,
+      "end": 73.86,
+      "text": "the problem set schedule, the quiz schedule,",
+      "confidence": -0.1334
+    },
+    {
+      "start": 73.86,
+      "end": 75.74,
+      "text": "and so on and so forth.",
+      "confidence": -0.1334
+    },
+    {
+      "start": 75.74,
+      "end": 77.42,
+      "text": "I want to dive right in and tell you",
+      "confidence": -0.1334
+    },
+    {
+      "start": 77.42,
+      "end": 80.94,
+      "text": "about interesting things like algorithms",
+      "confidence": -0.1334
+    },
+    {
+      "start": 80.94,
+      "end": 84.53999999999999,
+      "text": "and complexity of algorithms.",
+      "confidence": -0.1334
+    },
+    {
+      "start": 84.53999999999999,
+      "end": 86.5,
+      "text": "I want to spend some time giving you",
+      "confidence": -0.1334
+    },
+    {
+      "start": 86.58,
+      "end": 89.38,
+      "text": "an overview of the course content.",
+      "confidence": -0.1117
+    },
+    {
+      "start": 89.38,
+      "end": 92.42,
+      "text": "And then we're going to dive right in and look",
+      "confidence": -0.1117
+    },
+    {
+      "start": 92.42,
+      "end": 96.26,
+      "text": "at a particular problem of peak finding,",
+      "confidence": -0.1117
+    },
+    {
+      "start": 96.26,
+      "end": 99.74,
+      "text": "both a one-dimensional version and a two-dimensional version,",
+      "confidence": -0.1117
+    },
+    {
+      "start": 99.74,
+      "end": 102.7,
+      "text": "and talk about algorithms to solve this peak finding",
+      "confidence": -0.1117
+    },
+    {
+      "start": 102.7,
+      "end": 106.58,
+      "text": "problem, both varieties of it.",
+      "confidence": -0.1117
+    },
+    {
+      "start": 106.58,
+      "end": 109.98,
+      "text": "And you'll find that there's really",
+      "confidence": -0.1117
+    },
+    {
+      "start": 109.98,
+      "end": 113.1,
+      "text": "a difference between these various algorithms",
+      "confidence": -0.1117
+    },
+    {
+      "start": 113.1,
+      "end": 116.46,
+      "text": "that we'll look at in terms of their complexity.",
+      "confidence": -0.1269
+    },
+    {
+      "start": 116.46,
+      "end": 119.05999999999999,
+      "text": "And what I mean by that is you're",
+      "confidence": -0.1269
+    },
+    {
+      "start": 119.05999999999999,
+      "end": 122.74,
+      "text": "going to have different run times of these algorithms,",
+      "confidence": -0.1269
+    },
+    {
+      "start": 122.74,
+      "end": 126.61999999999999,
+      "text": "depending on input size, based on how efficient",
+      "confidence": -0.1269
+    },
+    {
+      "start": 126.61999999999999,
+      "end": 128.66,
+      "text": "these algorithms are.",
+      "confidence": -0.1269
+    },
+    {
+      "start": 128.66,
+      "end": 134.34,
+      "text": "And a prerequisite for this class is 6.042.",
+      "confidence": -0.1269
+    },
+    {
+      "start": 134.34,
+      "end": 138.62,
+      "text": "And in 6.042, you learned about asymptotic complexity.",
+      "confidence": -0.1269
+    },
+    {
+      "start": 138.62,
+      "end": 141.22,
+      "text": "And you'll see that in this lecture,",
+      "confidence": -0.1269
+    },
+    {
+      "start": 141.22,
+      "end": 145.42,
+      "text": "we'll analyze relatively simple algorithms today",
+      "confidence": -0.0797
+    },
+    {
+      "start": 145.42,
+      "end": 148.06,
+      "text": "in terms of their asymptotic complexity.",
+      "confidence": -0.0797
+    },
+    {
+      "start": 148.06,
+      "end": 150.34,
+      "text": "And you'll be able to compare and say",
+      "confidence": -0.0797
+    },
+    {
+      "start": 150.34,
+      "end": 153.46,
+      "text": "that this algorithm is faster than this other one,",
+      "confidence": -0.0797
+    },
+    {
+      "start": 153.46,
+      "end": 155.5,
+      "text": "assuming that you have large inputs,",
+      "confidence": -0.0797
+    },
+    {
+      "start": 155.5,
+      "end": 160.82,
+      "text": "because it's asymptotically less complex.",
+      "confidence": -0.0797
+    },
+    {
+      "start": 160.82,
+      "end": 163.18,
+      "text": "So let's dive right in and talk about the class.",
+      "confidence": -0.0797
+    },
+    {
+      "start": 172.22,
+      "end": 174.54,
+      "text": "So the one sentence summary of this class",
+      "confidence": -0.1208
+    },
+    {
+      "start": 174.54,
+      "end": 178.94,
+      "text": "is that this is about efficient procedures",
+      "confidence": -0.1208
+    },
+    {
+      "start": 178.94,
+      "end": 184.86,
+      "text": "for solving problems on large inputs.",
+      "confidence": -0.1208
+    },
+    {
+      "start": 184.86,
+      "end": 186.78,
+      "text": "And when I say large inputs, I mean things",
+      "confidence": -0.1208
+    },
+    {
+      "start": 186.78,
+      "end": 192.34,
+      "text": "like the US highway system, a map of all of the highways",
+      "confidence": -0.1208
+    },
+    {
+      "start": 192.34,
+      "end": 196.14,
+      "text": "in the United States, the human genome, which",
+      "confidence": -0.1208
+    },
+    {
+      "start": 196.14,
+      "end": 200.82,
+      "text": "has a billion letters in its alphabet,",
+      "confidence": -0.1208
+    },
+    {
+      "start": 200.82,
+      "end": 204.1,
+      "text": "a social network corresponding to Facebook that, I guess,",
+      "confidence": -0.1173
+    },
+    {
+      "start": 204.1,
+      "end": 206.82,
+      "text": "has 500 million nodes or so.",
+      "confidence": -0.1173
+    },
+    {
+      "start": 206.82,
+      "end": 208.26,
+      "text": "So these are large inputs.",
+      "confidence": -0.1173
+    },
+    {
+      "start": 208.26,
+      "end": 211.45999999999998,
+      "text": "Now, our definition of large has really changed with the times.",
+      "confidence": -0.1173
+    },
+    {
+      "start": 211.45999999999998,
+      "end": 215.42,
+      "text": "And so really, the 21st century definition of large",
+      "confidence": -0.1173
+    },
+    {
+      "start": 215.42,
+      "end": 217.45999999999998,
+      "text": "is, I guess, a trillion.",
+      "confidence": -0.1173
+    },
+    {
+      "start": 217.45999999999998,
+      "end": 222.42,
+      "text": "Back when I was your age, large was like 1,000.",
+      "confidence": -0.1173
+    },
+    {
+      "start": 222.42,
+      "end": 224.98,
+      "text": "I guess I'm dating myself here.",
+      "confidence": -0.1173
+    },
+    {
+      "start": 224.98,
+      "end": 228.66,
+      "text": "Back when Eric was your age, it was a million.",
+      "confidence": -0.1173
+    },
+    {
+      "start": 228.66,
+      "end": 234.98,
+      "text": "But what's happening, really, the world is moving faster.",
+      "confidence": -0.1178
+    },
+    {
+      "start": 234.98,
+      "end": 236.34,
+      "text": "Things are getting bigger.",
+      "confidence": -0.1178
+    },
+    {
+      "start": 236.34,
+      "end": 240.85999999999999,
+      "text": "We have the capability of computing on large inputs.",
+      "confidence": -0.1178
+    },
+    {
+      "start": 240.85999999999999,
+      "end": 243.22,
+      "text": "But that doesn't mean that efficiency",
+      "confidence": -0.1178
+    },
+    {
+      "start": 243.22,
+      "end": 245.78,
+      "text": "isn't of paramount concern.",
+      "confidence": -0.1178
+    },
+    {
+      "start": 245.78,
+      "end": 248.66,
+      "text": "The fact of the matter is that you can maybe",
+      "confidence": -0.1178
+    },
+    {
+      "start": 248.66,
+      "end": 253.54,
+      "text": "scan a billion elements in a matter of seconds.",
+      "confidence": -0.1178
+    },
+    {
+      "start": 253.54,
+      "end": 257.74,
+      "text": "But if you had an algorithm that required cubic complexity,",
+      "confidence": -0.1178
+    },
+    {
+      "start": 257.74,
+      "end": 259.90000000000003,
+      "text": "suddenly you're not talking about 10 raised to 9.",
+      "confidence": -0.1063
+    },
+    {
+      "start": 259.90000000000003,
+      "end": 262.06,
+      "text": "You're talking about 10 raised to 27.",
+      "confidence": -0.1063
+    },
+    {
+      "start": 262.06,
+      "end": 264.5,
+      "text": "And even current computers can't really",
+      "confidence": -0.1063
+    },
+    {
+      "start": 264.5,
+      "end": 268.38,
+      "text": "handle those kinds of numbers.",
+      "confidence": -0.1063
+    },
+    {
+      "start": 268.38,
+      "end": 270.86,
+      "text": "So efficiency is a concern.",
+      "confidence": -0.1063
+    },
+    {
+      "start": 270.86,
+      "end": 275.3,
+      "text": "And as inputs get larger, it becomes more of a concern.",
+      "confidence": -0.1063
+    },
+    {
+      "start": 275.3,
+      "end": 289.42,
+      "text": "So we're concerned about efficient procedures",
+      "confidence": -0.2185
+    },
+    {
+      "start": 289.42,
+      "end": 291.94,
+      "text": "for solving large scale problems in this class.",
+      "confidence": -0.2185
+    },
+    {
+      "start": 298.1,
+      "end": 301.66,
+      "text": "And we're concerned about scalability.",
+      "confidence": -0.2185
+    },
+    {
+      "start": 301.66,
+      "end": 309.62,
+      "text": "Because just as 1,000 was a big number a couple of decades ago,",
+      "confidence": -0.114
+    },
+    {
+      "start": 309.62,
+      "end": 312.02000000000004,
+      "text": "and now it's kind of a small number,",
+      "confidence": -0.114
+    },
+    {
+      "start": 312.02000000000004,
+      "end": 316.42,
+      "text": "it's quite possible that by the time you guys are professors",
+      "confidence": -0.114
+    },
+    {
+      "start": 316.42,
+      "end": 318.22,
+      "text": "teaching this class in some university,",
+      "confidence": -0.114
+    },
+    {
+      "start": 318.22,
+      "end": 320.70000000000005,
+      "text": "that a trillion is going to be a small number.",
+      "confidence": -0.114
+    },
+    {
+      "start": 320.70000000000005,
+      "end": 325.54,
+      "text": "And we're going to be talking about 10 raised to 18",
+      "confidence": -0.114
+    },
+    {
+      "start": 325.54,
+      "end": 330.74,
+      "text": "as being something that we're concerned with",
+      "confidence": -0.114
+    },
+    {
+      "start": 330.74,
+      "end": 334.5,
+      "text": "from a standpoint of a common case input for an algorithm.",
+      "confidence": -0.1538
+    },
+    {
+      "start": 334.5,
+      "end": 338.14,
+      "text": "So scalability is important.",
+      "confidence": -0.1538
+    },
+    {
+      "start": 338.14,
+      "end": 341.46000000000004,
+      "text": "And we want to be able to track how our algorithms are going",
+      "confidence": -0.1538
+    },
+    {
+      "start": 341.46000000000004,
+      "end": 344.02,
+      "text": "to do as inputs get larger and larger.",
+      "confidence": -0.1538
+    },
+    {
+      "start": 347.22,
+      "end": 352.22,
+      "text": "You've got to learn a bunch of different data structures.",
+      "confidence": -0.1538
+    },
+    {
+      "start": 352.22,
+      "end": 356.66,
+      "text": "We'll call them classic data structures,",
+      "confidence": -0.1538
+    },
+    {
+      "start": 356.66,
+      "end": 361.34000000000003,
+      "text": "like binary search trees, hash tables",
+      "confidence": -0.1423
+    },
+    {
+      "start": 361.34000000000003,
+      "end": 364.06,
+      "text": "that are called dictionaries in Python,",
+      "confidence": -0.1423
+    },
+    {
+      "start": 364.06,
+      "end": 368.98,
+      "text": "and data structures such as balanced binary search",
+      "confidence": -0.1423
+    },
+    {
+      "start": 368.98,
+      "end": 371.74,
+      "text": "trees that are more efficient than just the regular binary",
+      "confidence": -0.1423
+    },
+    {
+      "start": 371.74,
+      "end": 373.1,
+      "text": "search trees.",
+      "confidence": -0.1423
+    },
+    {
+      "start": 373.1,
+      "end": 374.34000000000003,
+      "text": "And these are all data structures",
+      "confidence": -0.1423
+    },
+    {
+      "start": 374.34000000000003,
+      "end": 378.54,
+      "text": "that were invented many decades ago,",
+      "confidence": -0.1423
+    },
+    {
+      "start": 378.54,
+      "end": 380.86,
+      "text": "but they've stood the test of time.",
+      "confidence": -0.1423
+    },
+    {
+      "start": 380.86,
+      "end": 383.5,
+      "text": "And they continue to be useful.",
+      "confidence": -0.1423
+    },
+    {
+      "start": 383.5,
+      "end": 386.20000000000005,
+      "text": "We're going to augment these data structures in various ways",
+      "confidence": -0.1423
+    },
+    {
+      "start": 386.24,
+      "end": 390.32,
+      "text": "to make them more efficient for certain kinds of problems.",
+      "confidence": -0.1483
+    },
+    {
+      "start": 390.32,
+      "end": 394.0,
+      "text": "And while you're not going to be doing a whole lot of algorithm",
+      "confidence": -0.1483
+    },
+    {
+      "start": 394.0,
+      "end": 397.36,
+      "text": "design in this class, you will be doing some design",
+      "confidence": -0.1483
+    },
+    {
+      "start": 397.36,
+      "end": 400.88,
+      "text": "and a whole lot of analysis.",
+      "confidence": -0.1483
+    },
+    {
+      "start": 400.88,
+      "end": 406.08,
+      "text": "The class following this one, 6046, Design Analysis",
+      "confidence": -0.1483
+    },
+    {
+      "start": 406.08,
+      "end": 411.28,
+      "text": "of Algorithms, is a class that you should take if you like",
+      "confidence": -0.1483
+    },
+    {
+      "start": 411.28,
+      "end": 414.94,
+      "text": "this one, and you can do a whole lot more design of algorithms",
+      "confidence": -0.1483
+    },
+    {
+      "start": 415.18,
+      "end": 417.18,
+      "text": "in 6046.",
+      "confidence": -0.139
+    },
+    {
+      "start": 417.18,
+      "end": 419.9,
+      "text": "But you will look at classic data structures",
+      "confidence": -0.139
+    },
+    {
+      "start": 419.9,
+      "end": 426.14,
+      "text": "and classical algorithms for these data structures,",
+      "confidence": -0.139
+    },
+    {
+      "start": 426.14,
+      "end": 432.38,
+      "text": "including things like sorting and matching and so on.",
+      "confidence": -0.139
+    },
+    {
+      "start": 432.38,
+      "end": 437.18,
+      "text": "And one of the nice things about this class",
+      "confidence": -0.139
+    },
+    {
+      "start": 437.18,
+      "end": 441.78,
+      "text": "is that you'll be doing real implementations of these data",
+      "confidence": -0.139
+    },
+    {
+      "start": 441.78,
+      "end": 445.09999999999997,
+      "text": "structures and algorithms in Python.",
+      "confidence": -0.1505
+    },
+    {
+      "start": 448.21999999999997,
+      "end": 454.5,
+      "text": "And in particular, each of the problem sets in this class",
+      "confidence": -0.1505
+    },
+    {
+      "start": 454.5,
+      "end": 459.94,
+      "text": "are going to have both a theory part to them",
+      "confidence": -0.1505
+    },
+    {
+      "start": 459.94,
+      "end": 461.85999999999996,
+      "text": "and a programming part to them.",
+      "confidence": -0.1505
+    },
+    {
+      "start": 461.85999999999996,
+      "end": 463.41999999999996,
+      "text": "So hopefully, it'll all tie together.",
+      "confidence": -0.1505
+    },
+    {
+      "start": 463.41999999999996,
+      "end": 466.09999999999997,
+      "text": "The kinds of things we're going to be talking about in lectures",
+      "confidence": -0.1505
+    },
+    {
+      "start": 466.09999999999997,
+      "end": 471.17999999999995,
+      "text": "and recitations are going to be directly connected",
+      "confidence": -0.1505
+    },
+    {
+      "start": 471.18,
+      "end": 473.26,
+      "text": "to the theory parts of the problem sets.",
+      "confidence": -0.1512
+    },
+    {
+      "start": 473.26,
+      "end": 475.18,
+      "text": "And you'll be programming the algorithms",
+      "confidence": -0.1512
+    },
+    {
+      "start": 475.18,
+      "end": 477.7,
+      "text": "that we talk about in lecture or augmenting them,",
+      "confidence": -0.1512
+    },
+    {
+      "start": 477.7,
+      "end": 481.1,
+      "text": "running them, figuring out whether they",
+      "confidence": -0.1512
+    },
+    {
+      "start": 481.1,
+      "end": 483.18,
+      "text": "work well on large inputs or not.",
+      "confidence": -0.1512
+    },
+    {
+      "start": 486.5,
+      "end": 490.26,
+      "text": "So let me talk a little bit about the modules in this class",
+      "confidence": -0.1512
+    },
+    {
+      "start": 490.26,
+      "end": 491.66,
+      "text": "and the problem sets.",
+      "confidence": -0.1512
+    },
+    {
+      "start": 491.66,
+      "end": 494.02,
+      "text": "And we hope that these problem sets are going to be fun",
+      "confidence": -0.1512
+    },
+    {
+      "start": 494.02,
+      "end": 495.46000000000004,
+      "text": "for you.",
+      "confidence": -0.1512
+    },
+    {
+      "start": 495.46000000000004,
+      "end": 499.42,
+      "text": "And by fun, I don't mean easy.",
+      "confidence": -0.1512
+    },
+    {
+      "start": 499.42,
+      "end": 501.62,
+      "text": "I mean challenging and worthwhile.",
+      "confidence": -0.1388
+    },
+    {
+      "start": 501.62,
+      "end": 504.3,
+      "text": "So at the end of it, you feel like you've learned something.",
+      "confidence": -0.1388
+    },
+    {
+      "start": 504.3,
+      "end": 508.58000000000004,
+      "text": "And you had some fun along the way.",
+      "confidence": -0.1388
+    },
+    {
+      "start": 508.58000000000004,
+      "end": 521.82,
+      "text": "So content-wise, we have eight modules in the class,",
+      "confidence": -0.1388
+    },
+    {
+      "start": 521.82,
+      "end": 524.86,
+      "text": "each of which, roughly speaking, has a problem",
+      "confidence": -0.1388
+    },
+    {
+      "start": 524.86,
+      "end": 527.0600000000001,
+      "text": "set associated with it.",
+      "confidence": -0.1388
+    },
+    {
+      "start": 527.06,
+      "end": 531.6999999999999,
+      "text": "The first of these is what we call algorithmic thinking.",
+      "confidence": -0.152
+    },
+    {
+      "start": 535.66,
+      "end": 538.9,
+      "text": "And we'll kickstart that one today.",
+      "confidence": -0.152
+    },
+    {
+      "start": 538.9,
+      "end": 540.9399999999999,
+      "text": "And we'll look at a particular problem,",
+      "confidence": -0.152
+    },
+    {
+      "start": 540.9399999999999,
+      "end": 542.78,
+      "text": "as I mentioned, of peak finding.",
+      "confidence": -0.152
+    },
+    {
+      "start": 542.78,
+      "end": 544.3399999999999,
+      "text": "And as part of this, you're going",
+      "confidence": -0.152
+    },
+    {
+      "start": 544.3399999999999,
+      "end": 547.8599999999999,
+      "text": "to have a problem set that's going to go out today as well.",
+      "confidence": -0.152
+    },
+    {
+      "start": 547.8599999999999,
+      "end": 552.3,
+      "text": "And you'll find that in this problem set,",
+      "confidence": -0.152
+    },
+    {
+      "start": 552.3,
+      "end": 554.26,
+      "text": "some of these algorithms I've talked about today",
+      "confidence": -0.152
+    },
+    {
+      "start": 554.26,
+      "end": 557.06,
+      "text": "will be coded in Python and given to you.",
+      "confidence": -0.0889
+    },
+    {
+      "start": 557.06,
+      "end": 560.22,
+      "text": "A couple of them are going to have bugs in them.",
+      "confidence": -0.0889
+    },
+    {
+      "start": 560.22,
+      "end": 564.38,
+      "text": "You'll have to analyze the complexity of these algorithms,",
+      "confidence": -0.0889
+    },
+    {
+      "start": 564.38,
+      "end": 567.38,
+      "text": "figure out which ones are correct and efficient,",
+      "confidence": -0.0889
+    },
+    {
+      "start": 567.38,
+      "end": 570.18,
+      "text": "and write a proof for one of them.",
+      "confidence": -0.0889
+    },
+    {
+      "start": 570.18,
+      "end": 573.3,
+      "text": "So that's sort of an example problem set.",
+      "confidence": -0.0889
+    },
+    {
+      "start": 573.3,
+      "end": 577.62,
+      "text": "And you can expect that most of the problem sets",
+      "confidence": -0.0889
+    },
+    {
+      "start": 577.62,
+      "end": 580.54,
+      "text": "are going to follow that sort of template.",
+      "confidence": -0.0889
+    },
+    {
+      "start": 580.54,
+      "end": 584.8199999999999,
+      "text": "So you'll get a better sense of this",
+      "confidence": -0.1382
+    },
+    {
+      "start": 584.8199999999999,
+      "end": 586.66,
+      "text": "by the end of the day today, for sure,",
+      "confidence": -0.1382
+    },
+    {
+      "start": 586.66,
+      "end": 588.9399999999999,
+      "text": "or a concrete sense of this, because we'll",
+      "confidence": -0.1382
+    },
+    {
+      "start": 588.9399999999999,
+      "end": 592.86,
+      "text": "be done with lecture and you'll see our first problem set.",
+      "confidence": -0.1382
+    },
+    {
+      "start": 592.86,
+      "end": 597.54,
+      "text": "We're going to be doing a module on sorting in trees,",
+      "confidence": -0.1382
+    },
+    {
+      "start": 597.54,
+      "end": 600.62,
+      "text": "sorting you know about, sorting a bunch of numbers.",
+      "confidence": -0.1382
+    },
+    {
+      "start": 600.62,
+      "end": 602.16,
+      "text": "Imagine if you had a trillion numbers",
+      "confidence": -0.1382
+    },
+    {
+      "start": 602.16,
+      "end": 604.26,
+      "text": "and you wanted to sort them.",
+      "confidence": -0.1382
+    },
+    {
+      "start": 604.26,
+      "end": 607.5799999999999,
+      "text": "What kind of algorithm could you use for that?",
+      "confidence": -0.1382
+    },
+    {
+      "start": 607.5799999999999,
+      "end": 610.42,
+      "text": "Trees are a wonderful data structure.",
+      "confidence": -0.1382
+    },
+    {
+      "start": 610.9399999999999,
+      "end": 612.9399999999999,
+      "text": "There's different varieties, the most common",
+      "confidence": -0.1819
+    },
+    {
+      "start": 612.9399999999999,
+      "end": 614.74,
+      "text": "being binary trees.",
+      "confidence": -0.1819
+    },
+    {
+      "start": 614.74,
+      "end": 617.54,
+      "text": "And there's ways of doing all sorts of things",
+      "confidence": -0.1819
+    },
+    {
+      "start": 617.54,
+      "end": 622.54,
+      "text": "like scheduling and sorting using various kinds of trees,",
+      "confidence": -0.1819
+    },
+    {
+      "start": 622.54,
+      "end": 624.18,
+      "text": "including binary trees.",
+      "confidence": -0.1819
+    },
+    {
+      "start": 624.18,
+      "end": 631.3,
+      "text": "And we have a problem set on simulating a logic network",
+      "confidence": -0.1819
+    },
+    {
+      "start": 631.3,
+      "end": 635.86,
+      "text": "using a particular kind of sorting algorithm",
+      "confidence": -0.1819
+    },
+    {
+      "start": 635.86,
+      "end": 638.26,
+      "text": "and a data structure.",
+      "confidence": -0.1819
+    },
+    {
+      "start": 638.26,
+      "end": 641.14,
+      "text": "That is going to be our second problem set.",
+      "confidence": -0.1686
+    },
+    {
+      "start": 641.14,
+      "end": 647.14,
+      "text": "And more quickly, we're going to have modules on hashing,",
+      "confidence": -0.1686
+    },
+    {
+      "start": 647.14,
+      "end": 653.5,
+      "text": "where we'll do things like genome comparison in past terms.",
+      "confidence": -0.1686
+    },
+    {
+      "start": 653.5,
+      "end": 656.34,
+      "text": "We compared a human genome to a rat genome",
+      "confidence": -0.1686
+    },
+    {
+      "start": 656.34,
+      "end": 659.38,
+      "text": "and discovered they were pretty similar.",
+      "confidence": -0.1686
+    },
+    {
+      "start": 659.38,
+      "end": 661.9,
+      "text": "99% similar, which is kind of amazing.",
+      "confidence": -0.1686
+    },
+    {
+      "start": 661.9,
+      "end": 664.54,
+      "text": "But again, these things are so large",
+      "confidence": -0.1686
+    },
+    {
+      "start": 664.54,
+      "end": 667.46,
+      "text": "that you have to have efficiency in the comparison methods",
+      "confidence": -0.1686
+    },
+    {
+      "start": 667.58,
+      "end": 668.5,
+      "text": "that you use.",
+      "confidence": -0.141
+    },
+    {
+      "start": 668.5,
+      "end": 670.2800000000001,
+      "text": "And you'll find that if you don't",
+      "confidence": -0.141
+    },
+    {
+      "start": 670.2800000000001,
+      "end": 672.58,
+      "text": "get the complexity low enough, you just",
+      "confidence": -0.141
+    },
+    {
+      "start": 672.58,
+      "end": 675.5,
+      "text": "won't be able to complete.",
+      "confidence": -0.141
+    },
+    {
+      "start": 675.5,
+      "end": 677.3000000000001,
+      "text": "Your program won't be able to finish",
+      "confidence": -0.141
+    },
+    {
+      "start": 677.3000000000001,
+      "end": 681.74,
+      "text": "running within the time that your problem set is due,",
+      "confidence": -0.141
+    },
+    {
+      "start": 681.74,
+      "end": 683.7800000000001,
+      "text": "which is a bit of a problem.",
+      "confidence": -0.141
+    },
+    {
+      "start": 683.7800000000001,
+      "end": 688.86,
+      "text": "So that's something to keep in mind as you test your code.",
+      "confidence": -0.141
+    },
+    {
+      "start": 688.86,
+      "end": 692.1800000000001,
+      "text": "The fact is that you will get large inputs to run your code.",
+      "confidence": -0.141
+    },
+    {
+      "start": 692.1800000000001,
+      "end": 696.24,
+      "text": "And you want to keep complexity in mind as you're coding",
+      "confidence": -0.141
+    },
+    {
+      "start": 696.24,
+      "end": 700.48,
+      "text": "and thinking about the pseudo code, if you will,",
+      "confidence": -0.1453
+    },
+    {
+      "start": 700.48,
+      "end": 703.6800000000001,
+      "text": "of your algorithm itself.",
+      "confidence": -0.1453
+    },
+    {
+      "start": 703.6800000000001,
+      "end": 707.4,
+      "text": "We will talk about numerics.",
+      "confidence": -0.1453
+    },
+    {
+      "start": 707.4,
+      "end": 710.84,
+      "text": "A lot of the time, we talk about such large numbers",
+      "confidence": -0.1453
+    },
+    {
+      "start": 710.84,
+      "end": 714.24,
+      "text": "that 32 bits isn't enough.",
+      "confidence": -0.1453
+    },
+    {
+      "start": 714.24,
+      "end": 717.04,
+      "text": "Or 64 bits isn't enough to represent these numbers.",
+      "confidence": -0.1453
+    },
+    {
+      "start": 717.04,
+      "end": 718.88,
+      "text": "These numbers have thousands of bits.",
+      "confidence": -0.1453
+    },
+    {
+      "start": 718.88,
+      "end": 724.12,
+      "text": "A good example is RSA encryption that is used in SSL,",
+      "confidence": -0.1453
+    },
+    {
+      "start": 724.12,
+      "end": 725.16,
+      "text": "for example.",
+      "confidence": -0.1453
+    },
+    {
+      "start": 725.16,
+      "end": 729.68,
+      "text": "And when you go use HTTPS on websites,",
+      "confidence": -0.1179
+    },
+    {
+      "start": 729.68,
+      "end": 732.68,
+      "text": "RSA is used at the back end.",
+      "confidence": -0.1179
+    },
+    {
+      "start": 732.68,
+      "end": 735.36,
+      "text": "And typically, you work with prime numbers",
+      "confidence": -0.1179
+    },
+    {
+      "start": 735.36,
+      "end": 738.48,
+      "text": "that are thousands of bits long in RSA.",
+      "confidence": -0.1179
+    },
+    {
+      "start": 738.48,
+      "end": 739.8,
+      "text": "So how do you handle that?",
+      "confidence": -0.1179
+    },
+    {
+      "start": 739.8,
+      "end": 741.16,
+      "text": "How does Python handle that?",
+      "confidence": -0.1179
+    },
+    {
+      "start": 741.16,
+      "end": 742.92,
+      "text": "How do you write algorithms that can",
+      "confidence": -0.1179
+    },
+    {
+      "start": 742.92,
+      "end": 746.24,
+      "text": "deal with what are called infinite precision numbers?",
+      "confidence": -0.1179
+    },
+    {
+      "start": 746.24,
+      "end": 749.48,
+      "text": "So we have a module on numerics in the middle of the term",
+      "confidence": -0.1179
+    },
+    {
+      "start": 749.48,
+      "end": 751.8,
+      "text": "that talks about that.",
+      "confidence": -0.1179
+    },
+    {
+      "start": 751.8,
+      "end": 755.4399999999999,
+      "text": "Graphs, really a fundamental data structure",
+      "confidence": -0.1557
+    },
+    {
+      "start": 755.4399999999999,
+      "end": 757.9599999999999,
+      "text": "in all of computer science.",
+      "confidence": -0.1557
+    },
+    {
+      "start": 757.9599999999999,
+      "end": 762.0,
+      "text": "You might have heard of the famous Rubik's Cube",
+      "confidence": -0.1557
+    },
+    {
+      "start": 762.0,
+      "end": 766.8399999999999,
+      "text": "assignment from 006, a 2 by 2 by 2 Rubik's Cube.",
+      "confidence": -0.1557
+    },
+    {
+      "start": 766.8399999999999,
+      "end": 770.0799999999999,
+      "text": "What's the minimum number of moves necessary",
+      "confidence": -0.1557
+    },
+    {
+      "start": 770.0799999999999,
+      "end": 773.1999999999999,
+      "text": "to go from a given starting configuration",
+      "confidence": -0.1557
+    },
+    {
+      "start": 773.1999999999999,
+      "end": 777.16,
+      "text": "to the final end configuration where each of the faces",
+      "confidence": -0.1557
+    },
+    {
+      "start": 777.16,
+      "end": 778.9599999999999,
+      "text": "has uniform color?",
+      "confidence": -0.1557
+    },
+    {
+      "start": 778.96,
+      "end": 781.96,
+      "text": "And that can be posed as a graph problem.",
+      "confidence": -0.1659
+    },
+    {
+      "start": 781.96,
+      "end": 784.1600000000001,
+      "text": "We'll probably do that one this term.",
+      "confidence": -0.1659
+    },
+    {
+      "start": 784.1600000000001,
+      "end": 787.32,
+      "text": "In previous terms, we've done other things like the 15 puzzle.",
+      "confidence": -0.1659
+    },
+    {
+      "start": 787.32,
+      "end": 789.84,
+      "text": "And so some of these are tentative.",
+      "confidence": -0.1659
+    },
+    {
+      "start": 789.84,
+      "end": 792.44,
+      "text": "We definitely know what the first problem set is like.",
+      "confidence": -0.1659
+    },
+    {
+      "start": 792.44,
+      "end": 796.44,
+      "text": "But the rest of them are, at this moment, tentative.",
+      "confidence": -0.1659
+    },
+    {
+      "start": 796.44,
+      "end": 800.32,
+      "text": "And to finish up, shortest paths.",
+      "confidence": -0.1659
+    },
+    {
+      "start": 800.32,
+      "end": 805.96,
+      "text": "Again, in terms past, we've asked you to write code",
+      "confidence": -0.1659
+    },
+    {
+      "start": 805.96,
+      "end": 808.32,
+      "text": "using a particular algorithm that finds the shortest path",
+      "confidence": -0.1659
+    },
+    {
+      "start": 808.32,
+      "end": 811.12,
+      "text": "from Caltech to MIT.",
+      "confidence": -0.1256
+    },
+    {
+      "start": 811.12,
+      "end": 813.5600000000001,
+      "text": "This time, we may do things a little bit differently.",
+      "confidence": -0.1256
+    },
+    {
+      "start": 813.5600000000001,
+      "end": 817.12,
+      "text": "We're thinking maybe we'll give you a street map of Boston",
+      "confidence": -0.1256
+    },
+    {
+      "start": 817.12,
+      "end": 823.0,
+      "text": "and go figure out if Paul Revere used the shortest path to get",
+      "confidence": -0.1256
+    },
+    {
+      "start": 823.0,
+      "end": 825.1600000000001,
+      "text": "to where he was going or things like that.",
+      "confidence": -0.1256
+    },
+    {
+      "start": 825.1600000000001,
+      "end": 827.5600000000001,
+      "text": "We'll try and make it fun.",
+      "confidence": -0.1256
+    },
+    {
+      "start": 827.5600000000001,
+      "end": 834.4000000000001,
+      "text": "Dynamic programming is an important algorithm design",
+      "confidence": -0.1256
+    },
+    {
+      "start": 834.4,
+      "end": 840.68,
+      "text": "technique that's used in many, many problems.",
+      "confidence": -0.1522
+    },
+    {
+      "start": 840.68,
+      "end": 844.16,
+      "text": "And it can be used to do a variety of things,",
+      "confidence": -0.1522
+    },
+    {
+      "start": 844.16,
+      "end": 846.56,
+      "text": "including image compression.",
+      "confidence": -0.1522
+    },
+    {
+      "start": 846.56,
+      "end": 851.48,
+      "text": "How do you compress an image so the number of pixels reduces,",
+      "confidence": -0.1522
+    },
+    {
+      "start": 851.48,
+      "end": 854.16,
+      "text": "but it still looks like the image that you started out",
+      "confidence": -0.1522
+    },
+    {
+      "start": 854.16,
+      "end": 856.28,
+      "text": "with that had many more pixels.",
+      "confidence": -0.1522
+    },
+    {
+      "start": 856.28,
+      "end": 858.88,
+      "text": "So you could use dynamic programming for that.",
+      "confidence": -0.1522
+    },
+    {
+      "start": 858.88,
+      "end": 862.84,
+      "text": "And finally, advanced topics, complexity theory,",
+      "confidence": -0.1522
+    },
+    {
+      "start": 862.84,
+      "end": 865.72,
+      "text": "research, and algorithms.",
+      "confidence": -0.1255
+    },
+    {
+      "start": 865.72,
+      "end": 868.48,
+      "text": "Hopefully, by this time in the course,",
+      "confidence": -0.1255
+    },
+    {
+      "start": 868.48,
+      "end": 870.32,
+      "text": "you would have been sold on algorithms.",
+      "confidence": -0.1255
+    },
+    {
+      "start": 870.32,
+      "end": 872.5600000000001,
+      "text": "And most, if not all, of you would",
+      "confidence": -0.1255
+    },
+    {
+      "start": 872.5600000000001,
+      "end": 874.5600000000001,
+      "text": "want to pursue a career in algorithms.",
+      "confidence": -0.1255
+    },
+    {
+      "start": 874.5600000000001,
+      "end": 877.6800000000001,
+      "text": "And we'll give you a sense of what else is there.",
+      "confidence": -0.1255
+    },
+    {
+      "start": 877.6800000000001,
+      "end": 880.5600000000001,
+      "text": "We're just scratching the surface in this class.",
+      "confidence": -0.1255
+    },
+    {
+      "start": 880.5600000000001,
+      "end": 883.48,
+      "text": "And there's many, many classes that you can possibly take",
+      "confidence": -0.1255
+    },
+    {
+      "start": 883.48,
+      "end": 887.64,
+      "text": "if you want to continue to learn about algorithms",
+      "confidence": -0.1255
+    },
+    {
+      "start": 887.64,
+      "end": 889.76,
+      "text": "or to pursue a career in algorithms.",
+      "confidence": -0.1255
+    },
+    {
+      "start": 889.76,
+      "end": 891.5600000000001,
+      "text": "All right?",
+      "confidence": -0.1255
+    },
+    {
+      "start": 891.9599999999999,
+      "end": 893.92,
+      "text": "So that's the story of the class,",
+      "confidence": -0.159
+    },
+    {
+      "start": 893.92,
+      "end": 895.8399999999999,
+      "text": "of the synopsis of the class.",
+      "confidence": -0.159
+    },
+    {
+      "start": 895.8399999999999,
+      "end": 901.9599999999999,
+      "text": "And I encourage you to go spend a few minutes on the website.",
+      "confidence": -0.159
+    },
+    {
+      "start": 901.9599999999999,
+      "end": 905.4399999999999,
+      "text": "In particular, please read the collaboration policy",
+      "confidence": -0.159
+    },
+    {
+      "start": 905.4399999999999,
+      "end": 908.1999999999999,
+      "text": "and get a sense of what is expected of you,",
+      "confidence": -0.159
+    },
+    {
+      "start": 908.1999999999999,
+      "end": 913.5999999999999,
+      "text": "of what the rules are in terms of doing the problem sets,",
+      "confidence": -0.159
+    },
+    {
+      "start": 913.5999999999999,
+      "end": 918.52,
+      "text": "and the course grading breakdown, the grading policies",
+      "confidence": -0.159
+    },
+    {
+      "start": 918.52,
+      "end": 921.28,
+      "text": "are all listed on the website as well.",
+      "confidence": -0.159
+    },
+    {
+      "start": 921.8399999999999,
+      "end": 923.0,
+      "text": "All right?",
+      "confidence": -0.1504
+    },
+    {
+      "start": 923.0,
+      "end": 923.88,
+      "text": "OK.",
+      "confidence": -0.1504
+    },
+    {
+      "start": 923.88,
+      "end": 926.1999999999999,
+      "text": "So let's get started.",
+      "confidence": -0.1504
+    },
+    {
+      "start": 926.1999999999999,
+      "end": 928.92,
+      "text": "I want to talk about a specific problem",
+      "confidence": -0.1504
+    },
+    {
+      "start": 928.92,
+      "end": 932.0,
+      "text": "and talk about algorithms for a specific problem.",
+      "confidence": -0.1504
+    },
+    {
+      "start": 932.0,
+      "end": 935.56,
+      "text": "We picked this problem because it's so easy to understand.",
+      "confidence": -0.1504
+    },
+    {
+      "start": 935.56,
+      "end": 938.8,
+      "text": "And they're fairly straightforward algorithms",
+      "confidence": -0.1504
+    },
+    {
+      "start": 938.8,
+      "end": 941.28,
+      "text": "that are not particularly efficient to solve",
+      "confidence": -0.1504
+    },
+    {
+      "start": 941.28,
+      "end": 942.4399999999999,
+      "text": "this problem.",
+      "confidence": -0.1504
+    },
+    {
+      "start": 942.4399999999999,
+      "end": 945.04,
+      "text": "And so this is kind of a toy problem.",
+      "confidence": -0.1504
+    },
+    {
+      "start": 945.04,
+      "end": 949.66,
+      "text": "But like a lot of toy problems, it's",
+      "confidence": -0.1504
+    },
+    {
+      "start": 949.66,
+      "end": 953.42,
+      "text": "very evocative in that it points out",
+      "confidence": -0.1427
+    },
+    {
+      "start": 953.42,
+      "end": 957.74,
+      "text": "the issues involved in designing efficient algorithms.",
+      "confidence": -0.1427
+    },
+    {
+      "start": 957.74,
+      "end": 960.18,
+      "text": "So we'll start with a one-dimensional version",
+      "confidence": -0.1427
+    },
+    {
+      "start": 960.18,
+      "end": 962.38,
+      "text": "of what we call peak finding.",
+      "confidence": -0.1427
+    },
+    {
+      "start": 965.78,
+      "end": 974.14,
+      "text": "And a peak finder is something in the one-dimensional case",
+      "confidence": -0.1427
+    },
+    {
+      "start": 974.14,
+      "end": 978.22,
+      "text": "runs on an array of numbers.",
+      "confidence": -0.1427
+    },
+    {
+      "start": 978.22,
+      "end": 987.02,
+      "text": "And I'm just putting symbols for each of these numbers here.",
+      "confidence": -0.1424
+    },
+    {
+      "start": 987.02,
+      "end": 991.58,
+      "text": "And the numbers are positive, negative.",
+      "confidence": -0.1424
+    },
+    {
+      "start": 991.58,
+      "end": 993.1800000000001,
+      "text": "We'll just assume they're all positive.",
+      "confidence": -0.1424
+    },
+    {
+      "start": 993.1800000000001,
+      "end": 994.5,
+      "text": "It doesn't really matter.",
+      "confidence": -0.1424
+    },
+    {
+      "start": 994.5,
+      "end": 998.46,
+      "text": "The algorithms we describe will work.",
+      "confidence": -0.1424
+    },
+    {
+      "start": 998.46,
+      "end": 1001.3000000000001,
+      "text": "And so we have this one-dimensional array",
+      "confidence": -0.1424
+    },
+    {
+      "start": 1001.3000000000001,
+      "end": 1003.46,
+      "text": "that has nine different positions.",
+      "confidence": -0.1424
+    },
+    {
+      "start": 1003.46,
+      "end": 1009.9000000000001,
+      "text": "And a through i are numbers.",
+      "confidence": -0.1323
+    },
+    {
+      "start": 1009.9000000000001,
+      "end": 1013.02,
+      "text": "And we want to find a peak.",
+      "confidence": -0.1323
+    },
+    {
+      "start": 1013.02,
+      "end": 1016.1800000000001,
+      "text": "And so we have to define what we mean by a peak.",
+      "confidence": -0.1323
+    },
+    {
+      "start": 1016.1800000000001,
+      "end": 1022.58,
+      "text": "And so in particular, as an example, position 2",
+      "confidence": -0.1323
+    },
+    {
+      "start": 1022.58,
+      "end": 1034.66,
+      "text": "is a peak if and only if b greater than or equal to a",
+      "confidence": -0.0866
+    },
+    {
+      "start": 1034.66,
+      "end": 1038.02,
+      "text": "and b greater than or equal to c.",
+      "confidence": -0.0866
+    },
+    {
+      "start": 1038.02,
+      "end": 1040.82,
+      "text": "So it's really a very local property",
+      "confidence": -0.0866
+    },
+    {
+      "start": 1040.82,
+      "end": 1042.26,
+      "text": "corresponding to a peak.",
+      "confidence": -0.0866
+    },
+    {
+      "start": 1042.26,
+      "end": 1045.02,
+      "text": "In the one-dimensional case, it's trivial.",
+      "confidence": -0.0866
+    },
+    {
+      "start": 1045.02,
+      "end": 1046.22,
+      "text": "Look to your left.",
+      "confidence": -0.0866
+    },
+    {
+      "start": 1046.22,
+      "end": 1047.98,
+      "text": "Look to your right.",
+      "confidence": -0.0866
+    },
+    {
+      "start": 1047.98,
+      "end": 1052.0,
+      "text": "If you're equal or greater than both of the elements",
+      "confidence": -0.0866
+    },
+    {
+      "start": 1052.04,
+      "end": 1055.76,
+      "text": "that you see on the left and the right, you're a peak.",
+      "confidence": -0.1307
+    },
+    {
+      "start": 1055.76,
+      "end": 1058.68,
+      "text": "And in the case of the edges, you only",
+      "confidence": -0.1307
+    },
+    {
+      "start": 1058.68,
+      "end": 1060.68,
+      "text": "have to look to one side.",
+      "confidence": -0.1307
+    },
+    {
+      "start": 1060.68,
+      "end": 1073.76,
+      "text": "So position 9 is a peak if i greater than or equal to h.",
+      "confidence": -0.1307
+    },
+    {
+      "start": 1073.76,
+      "end": 1075.4,
+      "text": "So you just have to look to your left there,",
+      "confidence": -0.1307
+    },
+    {
+      "start": 1075.4,
+      "end": 1078.68,
+      "text": "because you're all the way on the right-hand side.",
+      "confidence": -0.1307
+    },
+    {
+      "start": 1078.68,
+      "end": 1080.48,
+      "text": "So that's it.",
+      "confidence": -0.1307
+    },
+    {
+      "start": 1080.48,
+      "end": 1083.24,
+      "text": "And the statement of the problem,",
+      "confidence": -0.2003
+    },
+    {
+      "start": 1083.24,
+      "end": 1093.84,
+      "text": "the one-dimensional version, is find a peak if it exists.",
+      "confidence": -0.2003
+    },
+    {
+      "start": 1102.04,
+      "end": 1104.48,
+      "text": "That's all there is to it.",
+      "confidence": -0.2003
+    },
+    {
+      "start": 1104.48,
+      "end": 1107.88,
+      "text": "I'm going to give you a straightforward algorithm.",
+      "confidence": -0.2003
+    },
+    {
+      "start": 1107.88,
+      "end": 1111.2800000000002,
+      "text": "And then we'll see if we can improve it.",
+      "confidence": -0.2462
+    },
+    {
+      "start": 1111.2800000000002,
+      "end": 1113.72,
+      "text": "You can imagine that the straightforward algorithm",
+      "confidence": -0.2462
+    },
+    {
+      "start": 1113.72,
+      "end": 1119.44,
+      "text": "is something that just walks across the array.",
+      "confidence": -0.2462
+    },
+    {
+      "start": 1119.44,
+      "end": 1123.8400000000001,
+      "text": "But we need that as a starting point for building something",
+      "confidence": -0.2462
+    },
+    {
+      "start": 1123.8400000000001,
+      "end": 1124.8400000000001,
+      "text": "more sophisticated.",
+      "confidence": -0.2462
+    },
+    {
+      "start": 1129.5600000000002,
+      "end": 1131.1200000000001,
+      "text": "So let's say we start from left.",
+      "confidence": -0.2462
+    },
+    {
+      "start": 1131.12,
+      "end": 1141.4799999999998,
+      "text": "And all we have is one traversal, really.",
+      "confidence": -0.1653
+    },
+    {
+      "start": 1145.36,
+      "end": 1147.6399999999999,
+      "text": "So let's say we have 1, 2.",
+      "confidence": -0.1653
+    },
+    {
+      "start": 1147.6399999999999,
+      "end": 1150.8,
+      "text": "And then we have n over 2 over here corresponding",
+      "confidence": -0.1653
+    },
+    {
+      "start": 1150.8,
+      "end": 1154.6,
+      "text": "to the middle of this n element array.",
+      "confidence": -0.1653
+    },
+    {
+      "start": 1154.6,
+      "end": 1159.0,
+      "text": "And then we have n minus 1 and n.",
+      "confidence": -0.1653
+    },
+    {
+      "start": 1159.0,
+      "end": 1162.16,
+      "text": "What I'm interested in doing is not only coming up",
+      "confidence": -0.2435
+    },
+    {
+      "start": 1162.16,
+      "end": 1164.88,
+      "text": "with a straightforward algorithm,",
+      "confidence": -0.2435
+    },
+    {
+      "start": 1164.88,
+      "end": 1169.32,
+      "text": "but also precisely characterizing",
+      "confidence": -0.2435
+    },
+    {
+      "start": 1169.32,
+      "end": 1172.0,
+      "text": "what its complexity is in relation",
+      "confidence": -0.2435
+    },
+    {
+      "start": 1172.0,
+      "end": 1175.52,
+      "text": "to n, which is the number of inputs.",
+      "confidence": -0.2435
+    },
+    {
+      "start": 1175.52,
+      "end": 1176.84,
+      "text": "Yeah, question?",
+      "confidence": -0.2435
+    },
+    {
+      "start": 1176.84,
+      "end": 1179.32,
+      "text": "Why do you say if it exists with the criteria",
+      "confidence": -0.2435
+    },
+    {
+      "start": 1179.32,
+      "end": 1181.76,
+      "text": "that you have for a peak, are you guaranteed that a peak?",
+      "confidence": -0.2435
+    },
+    {
+      "start": 1181.76,
+      "end": 1182.72,
+      "text": "That's exactly right.",
+      "confidence": -0.2435
+    },
+    {
+      "start": 1182.72,
+      "end": 1184.52,
+      "text": "I was going to get to that.",
+      "confidence": -0.2435
+    },
+    {
+      "start": 1184.52,
+      "end": 1190.52,
+      "text": "So if you look at the definition of the peak,",
+      "confidence": -0.1072
+    },
+    {
+      "start": 1190.52,
+      "end": 1196.0,
+      "text": "then what I have here is greater than or equal to.",
+      "confidence": -0.1072
+    },
+    {
+      "start": 1196.0,
+      "end": 1199.68,
+      "text": "And so that's a great question that was asked.",
+      "confidence": -0.1072
+    },
+    {
+      "start": 1199.68,
+      "end": 1204.48,
+      "text": "Why is there if it exists in this problem?",
+      "confidence": -0.1072
+    },
+    {
+      "start": 1204.48,
+      "end": 1208.44,
+      "text": "Now, in the case where I have greater than or equal to,",
+      "confidence": -0.1072
+    },
+    {
+      "start": 1208.44,
+      "end": 1212.32,
+      "text": "then this is a homework question for you",
+      "confidence": -0.1072
+    },
+    {
+      "start": 1212.32,
+      "end": 1214.32,
+      "text": "and for the rest of you.",
+      "confidence": -0.1072
+    },
+    {
+      "start": 1214.4399999999998,
+      "end": 1220.8,
+      "text": "I argue that any array will always have a peak.",
+      "confidence": -0.1419
+    },
+    {
+      "start": 1220.8,
+      "end": 1224.28,
+      "text": "Now, if you didn't have the greater than or equal to",
+      "confidence": -0.1419
+    },
+    {
+      "start": 1224.28,
+      "end": 1229.08,
+      "text": "and you had a greater than, then can you make that argument?",
+      "confidence": -0.1419
+    },
+    {
+      "start": 1229.08,
+      "end": 1230.8,
+      "text": "No, you can.",
+      "confidence": -0.1419
+    },
+    {
+      "start": 1230.8,
+      "end": 1233.24,
+      "text": "So great question.",
+      "confidence": -0.1419
+    },
+    {
+      "start": 1233.24,
+      "end": 1237.8,
+      "text": "In this case, you would want to modify this problem statement",
+      "confidence": -0.1419
+    },
+    {
+      "start": 1237.8,
+      "end": 1238.96,
+      "text": "to find a peak.",
+      "confidence": -0.1419
+    },
+    {
+      "start": 1238.96,
+      "end": 1242.9199999999998,
+      "text": "But if I had a different definition of a peak,",
+      "confidence": -0.1419
+    },
+    {
+      "start": 1242.92,
+      "end": 1245.8400000000001,
+      "text": "and this is part of algorithmic thinking,",
+      "confidence": -0.1523
+    },
+    {
+      "start": 1245.8400000000001,
+      "end": 1249.5600000000002,
+      "text": "you want to be able to create algorithms that are general.",
+      "confidence": -0.1523
+    },
+    {
+      "start": 1249.5600000000002,
+      "end": 1252.3200000000002,
+      "text": "So if the problem definition changes on you,",
+      "confidence": -0.1523
+    },
+    {
+      "start": 1252.3200000000002,
+      "end": 1254.28,
+      "text": "you still have a starting point to go attack",
+      "confidence": -0.1523
+    },
+    {
+      "start": 1254.28,
+      "end": 1257.28,
+      "text": "the second version of the problem.",
+      "confidence": -0.1523
+    },
+    {
+      "start": 1257.28,
+      "end": 1262.3200000000002,
+      "text": "So you could eliminate this in the case of the greater than",
+      "confidence": -0.1523
+    },
+    {
+      "start": 1262.3200000000002,
+      "end": 1264.04,
+      "text": "or equal to definition, the if it exists,",
+      "confidence": -0.1523
+    },
+    {
+      "start": 1264.04,
+      "end": 1265.72,
+      "text": "because a peak will always exist.",
+      "confidence": -0.1523
+    },
+    {
+      "start": 1265.72,
+      "end": 1267.92,
+      "text": "But you probably want to argue that when you want to show",
+      "confidence": -0.1523
+    },
+    {
+      "start": 1267.92,
+      "end": 1269.92,
+      "text": "the correctness of your algorithm.",
+      "confidence": -0.1523
+    },
+    {
+      "start": 1269.92,
+      "end": 1273.2,
+      "text": "And if, in fact, you had a different definition,",
+      "confidence": -0.1149
+    },
+    {
+      "start": 1273.2,
+      "end": 1279.1200000000001,
+      "text": "well, you would have to create an algorithm that tells you",
+      "confidence": -0.1149
+    },
+    {
+      "start": 1279.1200000000001,
+      "end": 1282.96,
+      "text": "for sure that a peak doesn't exist or find a peak",
+      "confidence": -0.1149
+    },
+    {
+      "start": 1282.96,
+      "end": 1284.3600000000001,
+      "text": "if it exists.",
+      "confidence": -0.1149
+    },
+    {
+      "start": 1284.3600000000001,
+      "end": 1286.48,
+      "text": "So that's really the general case.",
+      "confidence": -0.1149
+    },
+    {
+      "start": 1286.48,
+      "end": 1289.8000000000002,
+      "text": "Many a time, it's possible that you're asked to do something",
+      "confidence": -0.1149
+    },
+    {
+      "start": 1289.8000000000002,
+      "end": 1295.0,
+      "text": "and you can't actually give an answer to the question",
+      "confidence": -0.1149
+    },
+    {
+      "start": 1295.0,
+      "end": 1299.5600000000002,
+      "text": "or find something that satisfies all the constraints required.",
+      "confidence": -0.1149
+    },
+    {
+      "start": 1299.56,
+      "end": 1301.72,
+      "text": "And in that case, you want to be able to put up your hand",
+      "confidence": -0.1212
+    },
+    {
+      "start": 1301.72,
+      "end": 1303.48,
+      "text": "and say, you know what?",
+      "confidence": -0.1212
+    },
+    {
+      "start": 1303.48,
+      "end": 1304.8799999999999,
+      "text": "I searched long and hard.",
+      "confidence": -0.1212
+    },
+    {
+      "start": 1304.8799999999999,
+      "end": 1306.72,
+      "text": "I searched exhaustively.",
+      "confidence": -0.1212
+    },
+    {
+      "start": 1306.72,
+      "end": 1310.12,
+      "text": "Here's my argument that I searched exhaustively,",
+      "confidence": -0.1212
+    },
+    {
+      "start": 1310.12,
+      "end": 1311.8799999999999,
+      "text": "and I couldn't find it.",
+      "confidence": -0.1212
+    },
+    {
+      "start": 1311.8799999999999,
+      "end": 1314.6,
+      "text": "If you do that, you get to keep your job.",
+      "confidence": -0.1212
+    },
+    {
+      "start": 1314.6,
+      "end": 1317.3999999999999,
+      "text": "Otherwise, there's always the case",
+      "confidence": -0.1212
+    },
+    {
+      "start": 1317.3999999999999,
+      "end": 1319.04,
+      "text": "that you didn't search hard enough.",
+      "confidence": -0.1212
+    },
+    {
+      "start": 1319.04,
+      "end": 1322.28,
+      "text": "So it's nice to have that argument.",
+      "confidence": -0.1212
+    },
+    {
+      "start": 1322.28,
+      "end": 1323.08,
+      "text": "All right, great.",
+      "confidence": -0.1212
+    },
+    {
+      "start": 1323.08,
+      "end": 1324.2,
+      "text": "Thanks for the question.",
+      "confidence": -0.1212
+    },
+    {
+      "start": 1324.2,
+      "end": 1325.1599999999999,
+      "text": "Feel free to interrupt.",
+      "confidence": -0.1212
+    },
+    {
+      "start": 1325.1599999999999,
+      "end": 1327.84,
+      "text": "Raise your hand, and I'm watching you guys,",
+      "confidence": -0.1212
+    },
+    {
+      "start": 1327.84,
+      "end": 1331.4399999999998,
+      "text": "and I'm happy to answer questions at any time.",
+      "confidence": -0.1251
+    },
+    {
+      "start": 1331.4399999999998,
+      "end": 1334.52,
+      "text": "So let's talk about the straightforward algorithm.",
+      "confidence": -0.1251
+    },
+    {
+      "start": 1334.52,
+      "end": 1336.52,
+      "text": "The straightforward algorithm is something",
+      "confidence": -0.1251
+    },
+    {
+      "start": 1336.52,
+      "end": 1340.9199999999998,
+      "text": "that starts from the left and just walks across.",
+      "confidence": -0.1251
+    },
+    {
+      "start": 1340.9199999999998,
+      "end": 1345.24,
+      "text": "And you might have something that looks like that.",
+      "confidence": -0.1251
+    },
+    {
+      "start": 1345.24,
+      "end": 1347.84,
+      "text": "By this, I mean the numbers are increasing",
+      "confidence": -0.1251
+    },
+    {
+      "start": 1347.84,
+      "end": 1349.56,
+      "text": "as you start from the left.",
+      "confidence": -0.1251
+    },
+    {
+      "start": 1349.56,
+      "end": 1351.72,
+      "text": "The peak is somewhere in the middle,",
+      "confidence": -0.1251
+    },
+    {
+      "start": 1351.72,
+      "end": 1354.08,
+      "text": "and then things start decreasing.",
+      "confidence": -0.1251
+    },
+    {
+      "start": 1354.08,
+      "end": 1359.48,
+      "text": "So in this case, this might be the peak.",
+      "confidence": -0.1547
+    },
+    {
+      "start": 1367.12,
+      "end": 1370.4399999999998,
+      "text": "You also may have a situation where the peak is all the way",
+      "confidence": -0.1547
+    },
+    {
+      "start": 1370.4399999999998,
+      "end": 1371.24,
+      "text": "on the right.",
+      "confidence": -0.1547
+    },
+    {
+      "start": 1371.24,
+      "end": 1374.6,
+      "text": "You start it from the left, and it's 1, 2, 3, 4, 5, 6,",
+      "confidence": -0.1547
+    },
+    {
+      "start": 1374.6,
+      "end": 1376.3999999999999,
+      "text": "literally in terms of the numbers.",
+      "confidence": -0.1547
+    },
+    {
+      "start": 1376.3999999999999,
+      "end": 1381.0,
+      "text": "And you're going to look at n elements going all the way",
+      "confidence": -0.1547
+    },
+    {
+      "start": 1381.0,
+      "end": 1384.8,
+      "text": "to the right in order to find the peak.",
+      "confidence": -0.1265
+    },
+    {
+      "start": 1384.8,
+      "end": 1387.36,
+      "text": "So in the case of the middle, you'd",
+      "confidence": -0.1265
+    },
+    {
+      "start": 1387.36,
+      "end": 1394.96,
+      "text": "look at n over 2 elements if it was right in the middle.",
+      "confidence": -0.1265
+    },
+    {
+      "start": 1398.36,
+      "end": 1406.32,
+      "text": "And the complexity, worst case complexity,",
+      "confidence": -0.1265
+    },
+    {
+      "start": 1406.32,
+      "end": 1409.8,
+      "text": "is what we call theta n.",
+      "confidence": -0.1265
+    },
+    {
+      "start": 1409.8,
+      "end": 1413.56,
+      "text": "And it's theta n, because in the worst case,",
+      "confidence": -0.1123
+    },
+    {
+      "start": 1413.56,
+      "end": 1416.32,
+      "text": "you may have to look at all n elements.",
+      "confidence": -0.1123
+    },
+    {
+      "start": 1416.32,
+      "end": 1418.68,
+      "text": "And that would be the case where you started from the left,",
+      "confidence": -0.1123
+    },
+    {
+      "start": 1418.68,
+      "end": 1420.84,
+      "text": "and you had to go all the way to the right.",
+      "confidence": -0.1123
+    },
+    {
+      "start": 1420.84,
+      "end": 1423.84,
+      "text": "Now remember, theta n is essentially something",
+      "confidence": -0.1123
+    },
+    {
+      "start": 1423.84,
+      "end": 1425.84,
+      "text": "that says of the order of n.",
+      "confidence": -0.1123
+    },
+    {
+      "start": 1425.84,
+      "end": 1429.36,
+      "text": "So it gives you both the lower bound and an upper bound.",
+      "confidence": -0.1123
+    },
+    {
+      "start": 1429.36,
+      "end": 1432.44,
+      "text": "Big O of n is just the upper bound.",
+      "confidence": -0.1123
+    },
+    {
+      "start": 1432.44,
+      "end": 1433.96,
+      "text": "And what we're saying here is we're",
+      "confidence": -0.1123
+    },
+    {
+      "start": 1433.96,
+      "end": 1438.08,
+      "text": "saying this algorithm that starts from the left",
+      "confidence": -0.1123
+    },
+    {
+      "start": 1438.08,
+      "end": 1443.4399999999998,
+      "text": "is going to essentially require, in the worst case,",
+      "confidence": -0.1401
+    },
+    {
+      "start": 1443.4399999999998,
+      "end": 1447.6799999999998,
+      "text": "something that's a constant times n.",
+      "confidence": -0.1401
+    },
+    {
+      "start": 1447.6799999999998,
+      "end": 1451.1999999999998,
+      "text": "And that constant could be 1.",
+      "confidence": -0.1401
+    },
+    {
+      "start": 1451.1999999999998,
+      "end": 1453.36,
+      "text": "You could certainly set things up that way.",
+      "confidence": -0.1401
+    },
+    {
+      "start": 1453.36,
+      "end": 1455.84,
+      "text": "Or if you had a different kind of algorithm,",
+      "confidence": -0.1401
+    },
+    {
+      "start": 1455.84,
+      "end": 1458.3999999999999,
+      "text": "maybe you could work on the constant.",
+      "confidence": -0.1401
+    },
+    {
+      "start": 1458.3999999999999,
+      "end": 1462.32,
+      "text": "But bottom line, we're only concerned at this moment",
+      "confidence": -0.1401
+    },
+    {
+      "start": 1462.32,
+      "end": 1464.72,
+      "text": "about asymptotic complexity.",
+      "confidence": -0.1401
+    },
+    {
+      "start": 1464.76,
+      "end": 1469.72,
+      "text": "And the asymptotic complexity of this algorithm is linear.",
+      "confidence": -0.1732
+    },
+    {
+      "start": 1469.72,
+      "end": 1472.04,
+      "text": "That make sense?",
+      "confidence": -0.1732
+    },
+    {
+      "start": 1472.04,
+      "end": 1472.92,
+      "text": "OK.",
+      "confidence": -0.1732
+    },
+    {
+      "start": 1472.92,
+      "end": 1478.84,
+      "text": "So someone help me do better.",
+      "confidence": -0.1732
+    },
+    {
+      "start": 1478.84,
+      "end": 1479.76,
+      "text": "How can we do better?",
+      "confidence": -0.1732
+    },
+    {
+      "start": 1479.76,
+      "end": 1483.0,
+      "text": "How can we lower the asymptotic complexity",
+      "confidence": -0.1732
+    },
+    {
+      "start": 1483.0,
+      "end": 1486.92,
+      "text": "of a one-dimensional peak finder?",
+      "confidence": -0.1732
+    },
+    {
+      "start": 1486.92,
+      "end": 1488.46,
+      "text": "Anybody want to take a stab at that?",
+      "confidence": -0.1732
+    },
+    {
+      "start": 1488.46,
+      "end": 1490.48,
+      "text": "Yeah, back there.",
+      "confidence": -0.1732
+    },
+    {
+      "start": 1490.52,
+      "end": 1493.6,
+      "text": "Do a binary search so that you look at the middle",
+      "confidence": -0.2645
+    },
+    {
+      "start": 1493.6,
+      "end": 1495.6,
+      "text": "and whatever is higher.",
+      "confidence": -0.2645
+    },
+    {
+      "start": 1495.6,
+      "end": 1498.24,
+      "text": "Whichever side is higher, you then cut that in half",
+      "confidence": -0.2645
+    },
+    {
+      "start": 1498.24,
+      "end": 1500.2,
+      "text": "because you know there's a peak.",
+      "confidence": -0.2645
+    },
+    {
+      "start": 1500.2,
+      "end": 1502.68,
+      "text": "For example, if you're in the middle on the right side,",
+      "confidence": -0.2645
+    },
+    {
+      "start": 1502.68,
+      "end": 1504.24,
+      "text": "there's a higher number on the right side.",
+      "confidence": -0.2645
+    },
+    {
+      "start": 1504.24,
+      "end": 1505.88,
+      "text": "Then you would just look at that because you",
+      "confidence": -0.2645
+    },
+    {
+      "start": 1505.88,
+      "end": 1507.44,
+      "text": "know there's a peak somewhere in there.",
+      "confidence": -0.2645
+    },
+    {
+      "start": 1507.44,
+      "end": 1508.88,
+      "text": "And you continue cutting in half.",
+      "confidence": -0.2645
+    },
+    {
+      "start": 1508.88,
+      "end": 1509.4,
+      "text": "Excellent.",
+      "confidence": -0.2645
+    },
+    {
+      "start": 1509.4,
+      "end": 1509.88,
+      "text": "Excellent.",
+      "confidence": -0.2645
+    },
+    {
+      "start": 1509.88,
+      "end": 1510.88,
+      "text": "That's exactly right.",
+      "confidence": -0.2645
+    },
+    {
+      "start": 1510.88,
+      "end": 1516.4,
+      "text": "So you can do something different, which is essentially",
+      "confidence": -0.2645
+    },
+    {
+      "start": 1516.4,
+      "end": 1519.24,
+      "text": "try and break up this problem.",
+      "confidence": -0.2645
+    },
+    {
+      "start": 1519.24,
+      "end": 1521.44,
+      "text": "Use a divide and conquer strategy",
+      "confidence": -0.2229
+    },
+    {
+      "start": 1521.44,
+      "end": 1524.88,
+      "text": "and recursively break up this one-dimensional array",
+      "confidence": -0.2229
+    },
+    {
+      "start": 1524.88,
+      "end": 1530.1200000000001,
+      "text": "into smaller arrays and try and get this complexity down.",
+      "confidence": -0.2229
+    },
+    {
+      "start": 1530.1200000000001,
+      "end": 1530.64,
+      "text": "Yeah?",
+      "confidence": -0.2229
+    },
+    {
+      "start": 1530.64,
+      "end": 1533.44,
+      "text": "Are we assuming there's only one peak?",
+      "confidence": -0.2229
+    },
+    {
+      "start": 1533.44,
+      "end": 1534.76,
+      "text": "No, we're not.",
+      "confidence": -0.2229
+    },
+    {
+      "start": 1534.76,
+      "end": 1540.04,
+      "text": "If it's find O peak if it exists, and in this case,",
+      "confidence": -0.2229
+    },
+    {
+      "start": 1540.04,
+      "end": 1542.6,
+      "text": "it's find O peak because of the definition,",
+      "confidence": -0.2229
+    },
+    {
+      "start": 1542.6,
+      "end": 1545.88,
+      "text": "we don't really need this as it was discussed.",
+      "confidence": -0.2229
+    },
+    {
+      "start": 1545.88,
+      "end": 1546.64,
+      "text": "All right?",
+      "confidence": -0.2229
+    },
+    {
+      "start": 1546.64,
+      "end": 1547.16,
+      "text": "OK.",
+      "confidence": -0.2229
+    },
+    {
+      "start": 1548.0800000000002,
+      "end": 1550.48,
+      "text": "So that was a great answer.",
+      "confidence": -0.1886
+    },
+    {
+      "start": 1550.48,
+      "end": 1555.76,
+      "text": "And this class, after a while, is going to get boring, right?",
+      "confidence": -0.1886
+    },
+    {
+      "start": 1555.76,
+      "end": 1557.64,
+      "text": "Every class gets boring.",
+      "confidence": -0.1886
+    },
+    {
+      "start": 1557.64,
+      "end": 1561.5600000000002,
+      "text": "So we try and break the monotony here a bit.",
+      "confidence": -0.1886
+    },
+    {
+      "start": 1561.5600000000002,
+      "end": 1562.96,
+      "text": "And the other thing that we realized",
+      "confidence": -0.1886
+    },
+    {
+      "start": 1562.96,
+      "end": 1564.64,
+      "text": "was that these seats you're sitting on,",
+      "confidence": -0.1886
+    },
+    {
+      "start": 1564.64,
+      "end": 1566.96,
+      "text": "this is a nice classroom, but the seats you're sitting on",
+      "confidence": -0.1886
+    },
+    {
+      "start": 1566.96,
+      "end": 1568.2,
+      "text": "are kind of hard.",
+      "confidence": -0.1886
+    },
+    {
+      "start": 1568.2,
+      "end": 1571.0,
+      "text": "So what Eric and I did was we decided",
+      "confidence": -0.1886
+    },
+    {
+      "start": 1571.0,
+      "end": 1574.4,
+      "text": "we'll help you guys out, especially the ones who",
+      "confidence": -0.1886
+    },
+    {
+      "start": 1574.4,
+      "end": 1575.88,
+      "text": "are interacting with us.",
+      "confidence": -0.1886
+    },
+    {
+      "start": 1575.88,
+      "end": 1582.4,
+      "text": "And we have these cushions that are 6-6-6 cushions.",
+      "confidence": -0.1576
+    },
+    {
+      "start": 1582.4,
+      "end": 1585.16,
+      "text": "And that's a 2 by 2 by 2 Rubik's Cube here.",
+      "confidence": -0.1576
+    },
+    {
+      "start": 1585.16,
+      "end": 1588.4,
+      "text": "And since you answered the first question, you get a cushion.",
+      "confidence": -0.1576
+    },
+    {
+      "start": 1588.4,
+      "end": 1591.44,
+      "text": "This is kind of like a Frisbee, but not really.",
+      "confidence": -0.1576
+    },
+    {
+      "start": 1591.44,
+      "end": 1595.0400000000002,
+      "text": "So I'm not sure I'm going to get it to you.",
+      "confidence": -0.1576
+    },
+    {
+      "start": 1595.0400000000002,
+      "end": 1596.2800000000002,
+      "text": "But the other thing I want to say",
+      "confidence": -0.1576
+    },
+    {
+      "start": 1596.2800000000002,
+      "end": 1598.24,
+      "text": "is this is not a baseball game, right,",
+      "confidence": -0.1576
+    },
+    {
+      "start": 1598.24,
+      "end": 1600.44,
+      "text": "where you just grab the balls that come by.",
+      "confidence": -0.1576
+    },
+    {
+      "start": 1600.44,
+      "end": 1603.68,
+      "text": "This is meant for him, my friend in the red shirt.",
+      "confidence": -0.1576
+    },
+    {
+      "start": 1603.68,
+      "end": 1604.2800000000002,
+      "text": "So here you go.",
+      "confidence": -0.1576
+    },
+    {
+      "start": 1606.2,
+      "end": 1606.8400000000001,
+      "text": "Too bad.",
+      "confidence": -0.227
+    },
+    {
+      "start": 1606.8400000000001,
+      "end": 1607.64,
+      "text": "All right.",
+      "confidence": -0.227
+    },
+    {
+      "start": 1607.64,
+      "end": 1608.6000000000001,
+      "text": "It is soft.",
+      "confidence": -0.227
+    },
+    {
+      "start": 1608.6000000000001,
+      "end": 1612.5600000000002,
+      "text": "So it won't hurt you if it hits you.",
+      "confidence": -0.227
+    },
+    {
+      "start": 1612.5600000000002,
+      "end": 1614.2,
+      "text": "So if you've got a bunch of these,",
+      "confidence": -0.227
+    },
+    {
+      "start": 1614.2,
+      "end": 1620.2,
+      "text": "and raise your hands, there's going to be,",
+      "confidence": -0.227
+    },
+    {
+      "start": 1620.2,
+      "end": 1622.16,
+      "text": "I think there's some trivial questions",
+      "confidence": -0.227
+    },
+    {
+      "start": 1622.16,
+      "end": 1625.2,
+      "text": "that we're going to ask just to make sure you're awake.",
+      "confidence": -0.227
+    },
+    {
+      "start": 1625.2,
+      "end": 1627.7600000000002,
+      "text": "So an answer to that doesn't get you a cushion.",
+      "confidence": -0.227
+    },
+    {
+      "start": 1627.7600000000002,
+      "end": 1631.2,
+      "text": "But an answer like, what's your name?",
+      "confidence": -0.227
+    },
+    {
+      "start": 1631.8400000000001,
+      "end": 1635.1200000000001,
+      "text": "An answer like Jace just gave is,",
+      "confidence": -0.1884
+    },
+    {
+      "start": 1635.1200000000001,
+      "end": 1637.1200000000001,
+      "text": "that's a good answer to a non-trivial question.",
+      "confidence": -0.1884
+    },
+    {
+      "start": 1637.1200000000001,
+      "end": 1638.48,
+      "text": "That gets you a cushion.",
+      "confidence": -0.1884
+    },
+    {
+      "start": 1638.48,
+      "end": 1639.32,
+      "text": "OK?",
+      "confidence": -0.1884
+    },
+    {
+      "start": 1639.32,
+      "end": 1640.32,
+      "text": "All right, great.",
+      "confidence": -0.1884
+    },
+    {
+      "start": 1640.32,
+      "end": 1644.24,
+      "text": "So let's put up Jace's algorithm up here.",
+      "confidence": -0.1884
+    },
+    {
+      "start": 1644.24,
+      "end": 1646.72,
+      "text": "I'm going to write it out for the 1D version.",
+      "confidence": -0.1884
+    },
+    {
+      "start": 1661.3600000000001,
+      "end": 1665.16,
+      "text": "So what we have here is a recursive algorithm.",
+      "confidence": -0.1701
+    },
+    {
+      "start": 1683.28,
+      "end": 1684.8,
+      "text": "So the picture you want to keep in your head",
+      "confidence": -0.1701
+    },
+    {
+      "start": 1684.8,
+      "end": 1686.8400000000001,
+      "text": "is this picture that I've put up there.",
+      "confidence": -0.1701
+    },
+    {
+      "start": 1686.8400000000001,
+      "end": 1690.96,
+      "text": "And this is a divide and conquer algorithm.",
+      "confidence": -0.1701
+    },
+    {
+      "start": 1691.04,
+      "end": 1694.1200000000001,
+      "text": "You're going to see this over and over, this paradigm,",
+      "confidence": -0.1367
+    },
+    {
+      "start": 1694.1200000000001,
+      "end": 1697.3600000000001,
+      "text": "over and over in 6.006.",
+      "confidence": -0.1367
+    },
+    {
+      "start": 1697.3600000000001,
+      "end": 1702.68,
+      "text": "We're going to look at the n over 2 position.",
+      "confidence": -0.1367
+    },
+    {
+      "start": 1706.0,
+      "end": 1708.72,
+      "text": "And we're going to look to the left,",
+      "confidence": -0.1367
+    },
+    {
+      "start": 1708.72,
+      "end": 1710.92,
+      "text": "and we're going to look to the right.",
+      "confidence": -0.1367
+    },
+    {
+      "start": 1710.92,
+      "end": 1713.56,
+      "text": "And we're going to do that in sequence.",
+      "confidence": -0.1367
+    },
+    {
+      "start": 1713.56,
+      "end": 1726.2,
+      "text": "So if a n over 2 is less than a n over 2 minus 1,",
+      "confidence": -0.1442
+    },
+    {
+      "start": 1726.2,
+      "end": 1741.6,
+      "text": "then only look at the left half, 1 through n over 2 minus 1,",
+      "confidence": -0.1442
+    },
+    {
+      "start": 1741.6,
+      "end": 1742.48,
+      "text": "to look for a peak.",
+      "confidence": -0.2233
+    },
+    {
+      "start": 1748.9199999999998,
+      "end": 1751.04,
+      "text": "So that's step one.",
+      "confidence": -0.2233
+    },
+    {
+      "start": 1751.04,
+      "end": 1752.9599999999998,
+      "text": "And I could have done the right-hand side or the left-hand",
+      "confidence": -0.2233
+    },
+    {
+      "start": 1752.9599999999998,
+      "end": 1755.9599999999998,
+      "text": "side, doesn't really matter.",
+      "confidence": -0.2233
+    },
+    {
+      "start": 1755.9599999999998,
+      "end": 1760.6399999999999,
+      "text": "I chose to do the left-hand side first, the left half.",
+      "confidence": -0.2233
+    },
+    {
+      "start": 1760.6399999999999,
+      "end": 1764.56,
+      "text": "And so what I've done is through that one step,",
+      "confidence": -0.2233
+    },
+    {
+      "start": 1764.56,
+      "end": 1770.0,
+      "text": "if in fact you have that condition a n over 2",
+      "confidence": -0.2233
+    },
+    {
+      "start": 1770.0,
+      "end": 1773.64,
+      "text": "is less than a n over 2 minus 1, then you move your left",
+      "confidence": -0.1203
+    },
+    {
+      "start": 1773.64,
+      "end": 1777.52,
+      "text": "and you work on one half of the problem.",
+      "confidence": -0.1203
+    },
+    {
+      "start": 1777.52,
+      "end": 1783.12,
+      "text": "But if that's not the case, then if n over 2",
+      "confidence": -0.1203
+    },
+    {
+      "start": 1783.12,
+      "end": 1788.16,
+      "text": "is less than a over n by 2 plus 1,",
+      "confidence": -0.1203
+    },
+    {
+      "start": 1788.16,
+      "end": 1797.52,
+      "text": "then only look at n over 2 plus 1 through n for a peak.",
+      "confidence": -0.1203
+    },
+    {
+      "start": 1797.52,
+      "end": 1799.96,
+      "text": "So I haven't bothered writing out all the words.",
+      "confidence": -0.1104
+    },
+    {
+      "start": 1799.96,
+      "end": 1803.48,
+      "text": "They're exactly the same as the left-hand side.",
+      "confidence": -0.1104
+    },
+    {
+      "start": 1803.48,
+      "end": 1806.06,
+      "text": "You just look to the right-hand side.",
+      "confidence": -0.1104
+    },
+    {
+      "start": 1806.06,
+      "end": 1810.44,
+      "text": "Otherwise, if both of these conditions don't fire,",
+      "confidence": -0.1104
+    },
+    {
+      "start": 1810.44,
+      "end": 1812.6399999999999,
+      "text": "you're actually done.",
+      "confidence": -0.1104
+    },
+    {
+      "start": 1812.6399999999999,
+      "end": 1816.12,
+      "text": "That's actually the best case in terms of finishing early,",
+      "confidence": -0.1104
+    },
+    {
+      "start": 1816.12,
+      "end": 1818.28,
+      "text": "at least in this recursive step.",
+      "confidence": -0.1104
+    },
+    {
+      "start": 1818.28,
+      "end": 1822.56,
+      "text": "Because now the n over 2 position is a peak.",
+      "confidence": -0.1104
+    },
+    {
+      "start": 1822.56,
+      "end": 1830.48,
+      "text": "Because what you've found is that the n over 2 position",
+      "confidence": -0.1242
+    },
+    {
+      "start": 1830.48,
+      "end": 1834.72,
+      "text": "is greater than or equal to both of its adjacent positions.",
+      "confidence": -0.1242
+    },
+    {
+      "start": 1834.72,
+      "end": 1836.84,
+      "text": "And that's exactly the definition of a peak.",
+      "confidence": -0.1242
+    },
+    {
+      "start": 1836.84,
+      "end": 1839.32,
+      "text": "So you're done.",
+      "confidence": -0.1242
+    },
+    {
+      "start": 1839.32,
+      "end": 1844.52,
+      "text": "So all of this is good.",
+      "confidence": -0.1242
+    },
+    {
+      "start": 1844.52,
+      "end": 1852.04,
+      "text": "You want to write an argument that this algorithm is",
+      "confidence": -0.1242
+    },
+    {
+      "start": 1852.04,
+      "end": 1854.8799999999999,
+      "text": "correct, and I'm not going to bother with that.",
+      "confidence": -0.1223
+    },
+    {
+      "start": 1854.8799999999999,
+      "end": 1859.56,
+      "text": "I just waved my hands a bit, and you all nodded.",
+      "confidence": -0.1223
+    },
+    {
+      "start": 1859.56,
+      "end": 1861.32,
+      "text": "So we're done with that.",
+      "confidence": -0.1223
+    },
+    {
+      "start": 1861.32,
+      "end": 1867.08,
+      "text": "But the point being, you will see in your problem set",
+      "confidence": -0.1223
+    },
+    {
+      "start": 1867.08,
+      "end": 1870.72,
+      "text": "a precise argument for a more complicated algorithm,",
+      "confidence": -0.1223
+    },
+    {
+      "start": 1870.72,
+      "end": 1872.72,
+      "text": "the 2D version of this.",
+      "confidence": -0.1223
+    },
+    {
+      "start": 1872.72,
+      "end": 1875.08,
+      "text": "And that should be a template for you",
+      "confidence": -0.1223
+    },
+    {
+      "start": 1875.08,
+      "end": 1879.2,
+      "text": "to go write a proof or an argument, a formal argument",
+      "confidence": -0.1223
+    },
+    {
+      "start": 1879.2,
+      "end": 1881.6,
+      "text": "that a particular algorithm is correct,",
+      "confidence": -0.1223
+    },
+    {
+      "start": 1881.6,
+      "end": 1883.56,
+      "text": "that it does what it claims to do.",
+      "confidence": -0.1367
+    },
+    {
+      "start": 1883.56,
+      "end": 1890.3999999999999,
+      "text": "And in this case, it's two, three lines of careful reasoning",
+      "confidence": -0.1367
+    },
+    {
+      "start": 1890.3999999999999,
+      "end": 1894.52,
+      "text": "that essentially say, given the definition of the peak,",
+      "confidence": -0.1367
+    },
+    {
+      "start": 1894.52,
+      "end": 1898.6,
+      "text": "that this is going to find O peak in the array",
+      "confidence": -0.1367
+    },
+    {
+      "start": 1898.6,
+      "end": 1900.9199999999998,
+      "text": "that you're given.",
+      "confidence": -0.1367
+    },
+    {
+      "start": 1900.9199999999998,
+      "end": 1904.9599999999998,
+      "text": "So we all believe that this algorithm is correct.",
+      "confidence": -0.1367
+    },
+    {
+      "start": 1904.9599999999998,
+      "end": 1908.6799999999998,
+      "text": "Let's talk now about the complexity of this algorithm.",
+      "confidence": -0.1367
+    },
+    {
+      "start": 1908.6799999999998,
+      "end": 1910.6,
+      "text": "Because the whole point of this algorithm",
+      "confidence": -0.1367
+    },
+    {
+      "start": 1910.7199999999998,
+      "end": 1913.1,
+      "text": "is because we didn't like this theta n",
+      "confidence": -0.2213
+    },
+    {
+      "start": 1913.1,
+      "end": 1916.36,
+      "text": "complexity corresponding to the straightforward algorithm.",
+      "confidence": -0.2213
+    },
+    {
+      "start": 1916.36,
+      "end": 1917.6799999999998,
+      "text": "So it would like to do better.",
+      "confidence": -0.2213
+    },
+    {
+      "start": 1928.36,
+      "end": 1930.84,
+      "text": "So what I'd like to do is ask one of you",
+      "confidence": -0.2213
+    },
+    {
+      "start": 1930.84,
+      "end": 1936.1599999999999,
+      "text": "to give me a recurrence relation of the kind t of n equals blah,",
+      "confidence": -0.2213
+    },
+    {
+      "start": 1936.1599999999999,
+      "end": 1938.04,
+      "text": "blah, blah.",
+      "confidence": -0.2213
+    },
+    {
+      "start": 1938.04,
+      "end": 1942.32,
+      "text": "That would correspond to this recursive algorithm,",
+      "confidence": -0.2291
+    },
+    {
+      "start": 1942.32,
+      "end": 1944.04,
+      "text": "this divide and conquer algorithm.",
+      "confidence": -0.2291
+    },
+    {
+      "start": 1944.04,
+      "end": 1946.68,
+      "text": "And then using that, I'd like to get",
+      "confidence": -0.2291
+    },
+    {
+      "start": 1946.68,
+      "end": 1949.42,
+      "text": "to the actual complexity in terms",
+      "confidence": -0.2291
+    },
+    {
+      "start": 1949.42,
+      "end": 1953.48,
+      "text": "of what the theta of complexity corresponds to.",
+      "confidence": -0.2291
+    },
+    {
+      "start": 1953.48,
+      "end": 1955.08,
+      "text": "Yeah, back there.",
+      "confidence": -0.2291
+    },
+    {
+      "start": 1955.08,
+      "end": 1959.36,
+      "text": "So in the worst case scenario, t of n",
+      "confidence": -0.2291
+    },
+    {
+      "start": 1959.36,
+      "end": 1963.28,
+      "text": "is going to be some constant amount of time",
+      "confidence": -0.2291
+    },
+    {
+      "start": 1963.32,
+      "end": 1968.28,
+      "text": "takes to investigate whether a certain element is",
+      "confidence": -0.2515
+    },
+    {
+      "start": 1968.28,
+      "end": 1972.44,
+      "text": "equal to plus t of n over 2.",
+      "confidence": -0.2515
+    },
+    {
+      "start": 1972.44,
+      "end": 1973.44,
+      "text": "Great, exactly right.",
+      "confidence": -0.2515
+    },
+    {
+      "start": 1973.44,
+      "end": 1974.48,
+      "text": "That's exactly right.",
+      "confidence": -0.2515
+    },
+    {
+      "start": 1974.48,
+      "end": 1978.28,
+      "text": "So if you look at this algorithm and you say,",
+      "confidence": -0.2515
+    },
+    {
+      "start": 1978.28,
+      "end": 1981.32,
+      "text": "from a computation standpoint, can I",
+      "confidence": -0.2515
+    },
+    {
+      "start": 1981.32,
+      "end": 1985.52,
+      "text": "write an equation corresponding to the execution",
+      "confidence": -0.2515
+    },
+    {
+      "start": 1985.52,
+      "end": 1987.6,
+      "text": "of this algorithm, and you say t of n",
+      "confidence": -0.2515
+    },
+    {
+      "start": 1987.6,
+      "end": 2005.3999999999999,
+      "text": "is the work that this algorithm does on input of size n,",
+      "confidence": -0.2078
+    },
+    {
+      "start": 2005.3999999999999,
+      "end": 2008.56,
+      "text": "then I can write this equation.",
+      "confidence": -0.2078
+    },
+    {
+      "start": 2011.28,
+      "end": 2014.56,
+      "text": "And this theta 1 corresponds to the two comparisons",
+      "confidence": -0.2078
+    },
+    {
+      "start": 2014.56,
+      "end": 2017.24,
+      "text": "that you do, looking at potentially the two",
+      "confidence": -0.2715
+    },
+    {
+      "start": 2017.24,
+      "end": 2020.36,
+      "text": "comparisons that you do, looking at the left hand side",
+      "confidence": -0.2715
+    },
+    {
+      "start": 2020.36,
+      "end": 2021.44,
+      "text": "and the right hand side.",
+      "confidence": -0.2715
+    },
+    {
+      "start": 2021.44,
+      "end": 2022.8799999999999,
+      "text": "So that's a two is a constant.",
+      "confidence": -0.2715
+    },
+    {
+      "start": 2022.8799999999999,
+      "end": 2025.24,
+      "text": "So that's why we put theta 1.",
+      "confidence": -0.2715
+    },
+    {
+      "start": 2025.24,
+      "end": 2027.04,
+      "text": "So you get a question 2.",
+      "confidence": -0.2715
+    },
+    {
+      "start": 2027.04,
+      "end": 2029.6399999999999,
+      "text": "Watch out, guys.",
+      "confidence": -0.2715
+    },
+    {
+      "start": 2029.6399999999999,
+      "end": 2030.76,
+      "text": "Whoa.",
+      "confidence": -0.2715
+    },
+    {
+      "start": 2030.76,
+      "end": 2032.04,
+      "text": "Actually, that wasn't so bad.",
+      "confidence": -0.2715
+    },
+    {
+      "start": 2032.04,
+      "end": 2034.04,
+      "text": "All right.",
+      "confidence": -0.2715
+    },
+    {
+      "start": 2034.04,
+      "end": 2035.28,
+      "text": "Vier's left.",
+      "confidence": -0.2715
+    },
+    {
+      "start": 2035.28,
+      "end": 2037.44,
+      "text": "Eric, Vier's left.",
+      "confidence": -0.2715
+    },
+    {
+      "start": 2037.44,
+      "end": 2043.36,
+      "text": "So if you take this and you start expanding it,",
+      "confidence": -0.2715
+    },
+    {
+      "start": 2043.36,
+      "end": 2046.52,
+      "text": "eventually you're going to get to the base case, which",
+      "confidence": -0.1061
+    },
+    {
+      "start": 2046.52,
+      "end": 2056.04,
+      "text": "is t of 1 is theta 1, because you have a one element array.",
+      "confidence": -0.1061
+    },
+    {
+      "start": 2056.04,
+      "end": 2059.64,
+      "text": "For that array, you're just going to return that as a peak.",
+      "confidence": -0.1061
+    },
+    {
+      "start": 2059.64,
+      "end": 2063.12,
+      "text": "And so if you do that and you expand it all the way out,",
+      "confidence": -0.1061
+    },
+    {
+      "start": 2063.12,
+      "end": 2071.08,
+      "text": "then you can write t of n equals theta 1 plus theta 1.",
+      "confidence": -0.1061
+    },
+    {
+      "start": 2071.08,
+      "end": 2079.3199999999997,
+      "text": "And you're going to do this log to the base 2 of n times.",
+      "confidence": -0.1096
+    },
+    {
+      "start": 2079.3199999999997,
+      "end": 2085.6,
+      "text": "And adding these all up gives you a complexity theta log 2",
+      "confidence": -0.1096
+    },
+    {
+      "start": 2085.6,
+      "end": 2088.3199999999997,
+      "text": "of n.",
+      "confidence": -0.1096
+    },
+    {
+      "start": 2088.3199999999997,
+      "end": 2093.12,
+      "text": "So now you compare this with that.",
+      "confidence": -0.1096
+    },
+    {
+      "start": 2093.12,
+      "end": 2094.62,
+      "text": "And there's really a huge difference.",
+      "confidence": -0.1096
+    },
+    {
+      "start": 2094.62,
+      "end": 2097.44,
+      "text": "There's an exponential difference.",
+      "confidence": -0.1096
+    },
+    {
+      "start": 2097.44,
+      "end": 2101.88,
+      "text": "If you coded up this algorithm in Python,",
+      "confidence": -0.1346
+    },
+    {
+      "start": 2101.88,
+      "end": 2106.16,
+      "text": "and I did both these algorithms for the 1D version,",
+      "confidence": -0.1346
+    },
+    {
+      "start": 2106.16,
+      "end": 2114.16,
+      "text": "and if you run it on n being 10 million or so,",
+      "confidence": -0.1346
+    },
+    {
+      "start": 2114.16,
+      "end": 2118.32,
+      "text": "then this algorithm takes 13 seconds.",
+      "confidence": -0.1346
+    },
+    {
+      "start": 2118.32,
+      "end": 2121.88,
+      "text": "The theta n algorithm takes 13 seconds.",
+      "confidence": -0.1346
+    },
+    {
+      "start": 2121.88,
+      "end": 2126.56,
+      "text": "And this one takes 0.001 seconds.",
+      "confidence": -0.1346
+    },
+    {
+      "start": 2126.56,
+      "end": 2128.14,
+      "text": "Huge difference.",
+      "confidence": -0.1498
+    },
+    {
+      "start": 2128.14,
+      "end": 2130.36,
+      "text": "So there is a big difference between theta n and theta log",
+      "confidence": -0.1498
+    },
+    {
+      "start": 2130.36,
+      "end": 2131.74,
+      "text": "n.",
+      "confidence": -0.1498
+    },
+    {
+      "start": 2131.74,
+      "end": 2135.84,
+      "text": "It's literally the difference between 2 raised to n and n.",
+      "confidence": -0.1498
+    },
+    {
+      "start": 2135.84,
+      "end": 2141.88,
+      "text": "It makes sense to try and reduce complexity, as you can see,",
+      "confidence": -0.1498
+    },
+    {
+      "start": 2141.88,
+      "end": 2145.42,
+      "text": "especially if you're talking about large inputs.",
+      "confidence": -0.1498
+    },
+    {
+      "start": 2145.42,
+      "end": 2149.92,
+      "text": "And you'll see that more clearly as we go to a 2D version",
+      "confidence": -0.1498
+    },
+    {
+      "start": 2149.92,
+      "end": 2152.2,
+      "text": "of this problem.",
+      "confidence": -0.1498
+    },
+    {
+      "start": 2152.2,
+      "end": 2153.92,
+      "text": "So you can't really do better for the 1D.",
+      "confidence": -0.1498
+    },
+    {
+      "start": 2153.92,
+      "end": 2156.76,
+      "text": "The 1D is a straightforward problem.",
+      "confidence": -0.1701
+    },
+    {
+      "start": 2156.76,
+      "end": 2158.48,
+      "text": "It gets a little more interesting.",
+      "confidence": -0.1701
+    },
+    {
+      "start": 2158.48,
+      "end": 2163.6,
+      "text": "The algorithms get a little more sophisticated",
+      "confidence": -0.1701
+    },
+    {
+      "start": 2163.6,
+      "end": 2168.32,
+      "text": "when we look at a 2D version of peak finding.",
+      "confidence": -0.1701
+    },
+    {
+      "start": 2168.32,
+      "end": 2170.52,
+      "text": "So let's talk about the 2D version.",
+      "confidence": -0.1701
+    },
+    {
+      "start": 2175.8,
+      "end": 2178.28,
+      "text": "So as you can imagine, in the 2D version,",
+      "confidence": -0.1701
+    },
+    {
+      "start": 2178.28,
+      "end": 2180.92,
+      "text": "you have a matrix or a two-dimensional array.",
+      "confidence": -0.1701
+    },
+    {
+      "start": 2180.92,
+      "end": 2189.6,
+      "text": "And we'll say this thing has n rows and m columns.",
+      "confidence": -0.1747
+    },
+    {
+      "start": 2194.6800000000003,
+      "end": 2197.2000000000003,
+      "text": "And now we have to define what a peak is.",
+      "confidence": -0.1747
+    },
+    {
+      "start": 2197.2000000000003,
+      "end": 2198.36,
+      "text": "And it's a hill.",
+      "confidence": -0.1747
+    },
+    {
+      "start": 2198.36,
+      "end": 2201.56,
+      "text": "It's the obvious definition of a peak.",
+      "confidence": -0.1747
+    },
+    {
+      "start": 2201.56,
+      "end": 2213.44,
+      "text": "So if you had a in here, c, b, d, e, then as you can guess,",
+      "confidence": -0.1122
+    },
+    {
+      "start": 2213.44,
+      "end": 2224.56,
+      "text": "a is a 2D peak if and only if a greater than or equal to b,",
+      "confidence": -0.1122
+    },
+    {
+      "start": 2224.56,
+      "end": 2230.6,
+      "text": "a greater than or equal to d, c, and e.",
+      "confidence": -0.1122
+    },
+    {
+      "start": 2230.6,
+      "end": 2232.7599999999998,
+      "text": "So it's a little hill up there.",
+      "confidence": -0.169
+    },
+    {
+      "start": 2232.7599999999998,
+      "end": 2235.12,
+      "text": "And again, I've used the greater than or equal to here.",
+      "confidence": -0.169
+    },
+    {
+      "start": 2235.12,
+      "end": 2238.48,
+      "text": "So that's similar to the 1D in the case",
+      "confidence": -0.169
+    },
+    {
+      "start": 2238.48,
+      "end": 2241.3199999999997,
+      "text": "that you'll always find a peak in any 2D matrix.",
+      "confidence": -0.169
+    },
+    {
+      "start": 2243.96,
+      "end": 2249.2,
+      "text": "Now again, I'll give you the straightforward algorithm.",
+      "confidence": -0.169
+    },
+    {
+      "start": 2249.2,
+      "end": 2251.88,
+      "text": "And we'll call it a greedy ascent algorithm.",
+      "confidence": -0.169
+    },
+    {
+      "start": 2261.6,
+      "end": 2265.8399999999997,
+      "text": "And the greedy ascent algorithm essentially picks the direction",
+      "confidence": -0.1686
+    },
+    {
+      "start": 2265.8399999999997,
+      "end": 2270.56,
+      "text": "and tries to follow that direction in order",
+      "confidence": -0.1686
+    },
+    {
+      "start": 2270.56,
+      "end": 2272.7999999999997,
+      "text": "to find a peak.",
+      "confidence": -0.1686
+    },
+    {
+      "start": 2272.7999999999997,
+      "end": 2287.2,
+      "text": "So for example, if I had this particular matrix, 14, 13, 12,",
+      "confidence": -0.1686
+    },
+    {
+      "start": 2287.2,
+      "end": 2297.8799999999997,
+      "text": "15, 9, 11, 7, then what might happen",
+      "confidence": -0.1274
+    },
+    {
+      "start": 2297.8799999999997,
+      "end": 2301.8799999999997,
+      "text": "is if I started at some arbitrary midpoint,",
+      "confidence": -0.1274
+    },
+    {
+      "start": 2301.8799999999997,
+      "end": 2304.64,
+      "text": "so the greedy ascent algorithm has to make choices",
+      "confidence": -0.1274
+    },
+    {
+      "start": 2304.64,
+      "end": 2306.2,
+      "text": "as to where to start.",
+      "confidence": -0.1274
+    },
+    {
+      "start": 2306.2,
+      "end": 2309.2,
+      "text": "Just like we had different cases here,",
+      "confidence": -0.1274
+    },
+    {
+      "start": 2309.2,
+      "end": 2311.12,
+      "text": "you have to make a choice as to where to start.",
+      "confidence": -0.1274
+    },
+    {
+      "start": 2311.12,
+      "end": 2312.7799999999997,
+      "text": "You might want to start in the middle.",
+      "confidence": -0.1274
+    },
+    {
+      "start": 2312.7799999999997,
+      "end": 2315.56,
+      "text": "And you might want to work your way left first.",
+      "confidence": -0.1274
+    },
+    {
+      "start": 2316.2,
+      "end": 2319.72,
+      "text": "You just keep going left or keep going right.",
+      "confidence": -0.1175
+    },
+    {
+      "start": 2319.72,
+      "end": 2322.32,
+      "text": "And if you hit an edge, you go down.",
+      "confidence": -0.1175
+    },
+    {
+      "start": 2322.32,
+      "end": 2324.16,
+      "text": "So you make some choices as to what",
+      "confidence": -0.1175
+    },
+    {
+      "start": 2324.16,
+      "end": 2327.84,
+      "text": "the default traversal directions are.",
+      "confidence": -0.1175
+    },
+    {
+      "start": 2327.84,
+      "end": 2330.7999999999997,
+      "text": "And so if you say you want to start with 12,",
+      "confidence": -0.1175
+    },
+    {
+      "start": 2330.7999999999997,
+      "end": 2334.04,
+      "text": "you're going to go look for something to your left.",
+      "confidence": -0.1175
+    },
+    {
+      "start": 2334.04,
+      "end": 2337.08,
+      "text": "And if it's greater, then you're going",
+      "confidence": -0.1175
+    },
+    {
+      "start": 2337.08,
+      "end": 2338.44,
+      "text": "to follow that direction.",
+      "confidence": -0.1175
+    },
+    {
+      "start": 2338.44,
+      "end": 2343.52,
+      "text": "If it's less, then you're going to go in the other direction",
+      "confidence": -0.1175
+    },
+    {
+      "start": 2343.52,
+      "end": 2345.04,
+      "text": "in this case, for example.",
+      "confidence": -0.1175
+    },
+    {
+      "start": 2345.12,
+      "end": 2354.24,
+      "text": "So in this case, you'll go 12, 13, 14, 15, 16, 17, 19, and 20.",
+      "confidence": -0.1378
+    },
+    {
+      "start": 2354.24,
+      "end": 2357.92,
+      "text": "And you'd find this peak.",
+      "confidence": -0.1378
+    },
+    {
+      "start": 2357.92,
+      "end": 2361.68,
+      "text": "Now, I haven't given you the specific details",
+      "confidence": -0.1378
+    },
+    {
+      "start": 2361.68,
+      "end": 2363.7599999999998,
+      "text": "of a greedy ascent algorithm.",
+      "confidence": -0.1378
+    },
+    {
+      "start": 2363.7599999999998,
+      "end": 2373.8,
+      "text": "But I think if you look at the worst case possibilities here",
+      "confidence": -0.1378
+    },
+    {
+      "start": 2373.8,
+      "end": 2378.0800000000004,
+      "text": "with respect to a given matrix and for any given starting",
+      "confidence": -0.1049
+    },
+    {
+      "start": 2378.0800000000004,
+      "end": 2382.0,
+      "text": "point and for any given strategy in terms",
+      "confidence": -0.1049
+    },
+    {
+      "start": 2382.0,
+      "end": 2386.84,
+      "text": "of choosing left first versus right first or down first",
+      "confidence": -0.1049
+    },
+    {
+      "start": 2386.84,
+      "end": 2391.36,
+      "text": "versus up first, you will have a situation where, just",
+      "confidence": -0.1049
+    },
+    {
+      "start": 2391.36,
+      "end": 2395.44,
+      "text": "like we had in the 1D case, you may end up",
+      "confidence": -0.1049
+    },
+    {
+      "start": 2395.44,
+      "end": 2402.76,
+      "text": "touching a large fraction of the elements in this 2D array.",
+      "confidence": -0.1049
+    },
+    {
+      "start": 2402.76,
+      "end": 2405.48,
+      "text": "So in this case, we ended up touching",
+      "confidence": -0.1129
+    },
+    {
+      "start": 2405.48,
+      "end": 2406.88,
+      "text": "a bunch of different elements.",
+      "confidence": -0.1129
+    },
+    {
+      "start": 2406.88,
+      "end": 2409.96,
+      "text": "And it's quite possible that you could end up",
+      "confidence": -0.1129
+    },
+    {
+      "start": 2409.96,
+      "end": 2411.7200000000003,
+      "text": "touching, starting from the midpoint,",
+      "confidence": -0.1129
+    },
+    {
+      "start": 2411.7200000000003,
+      "end": 2413.76,
+      "text": "you could end up touching half the elements,",
+      "confidence": -0.1129
+    },
+    {
+      "start": 2413.76,
+      "end": 2417.0,
+      "text": "and in some cases, touching all of the elements.",
+      "confidence": -0.1129
+    },
+    {
+      "start": 2417.0,
+      "end": 2423.0,
+      "text": "So if you do a worst case analysis of this algorithm,",
+      "confidence": -0.1129
+    },
+    {
+      "start": 2423.0,
+      "end": 2425.0800000000004,
+      "text": "a particular algorithm with particular choices",
+      "confidence": -0.1129
+    },
+    {
+      "start": 2425.0800000000004,
+      "end": 2430.4,
+      "text": "in terms of the starting point and the direction of search,",
+      "confidence": -0.1129
+    },
+    {
+      "start": 2430.4,
+      "end": 2434.32,
+      "text": "a greedy ascent algorithm would have theta nm complexity.",
+      "confidence": -0.1251
+    },
+    {
+      "start": 2434.32,
+      "end": 2442.48,
+      "text": "And in the case where n equals m or m equals n,",
+      "confidence": -0.1251
+    },
+    {
+      "start": 2442.48,
+      "end": 2446.28,
+      "text": "you'd have theta n squared complexity.",
+      "confidence": -0.1251
+    },
+    {
+      "start": 2446.28,
+      "end": 2448.44,
+      "text": "I want to spend very much time on this",
+      "confidence": -0.1251
+    },
+    {
+      "start": 2448.44,
+      "end": 2452.7200000000003,
+      "text": "because I want to talk to you about the divide and conquer",
+      "confidence": -0.1251
+    },
+    {
+      "start": 2452.7200000000003,
+      "end": 2458.0,
+      "text": "versions of this algorithm for the 2D peak.",
+      "confidence": -0.1251
+    },
+    {
+      "start": 2458.0,
+      "end": 2460.84,
+      "text": "But hopefully, you're all with me with respect",
+      "confidence": -0.2573
+    },
+    {
+      "start": 2460.84,
+      "end": 2463.52,
+      "text": "to what the worst case complexity is.",
+      "confidence": -0.2573
+    },
+    {
+      "start": 2463.52,
+      "end": 2465.0,
+      "text": "All right?",
+      "confidence": -0.2573
+    },
+    {
+      "start": 2465.0,
+      "end": 2466.2,
+      "text": "People buy that?",
+      "confidence": -0.2573
+    },
+    {
+      "start": 2466.2,
+      "end": 2467.36,
+      "text": "Yeah, question back there.",
+      "confidence": -0.2573
+    },
+    {
+      "start": 2467.36,
+      "end": 2468.88,
+      "text": "Can you, is that an approximation",
+      "confidence": -0.2573
+    },
+    {
+      "start": 2468.88,
+      "end": 2474.64,
+      "text": "or can you actually get to n times n to virtual?",
+      "confidence": -0.2573
+    },
+    {
+      "start": 2474.64,
+      "end": 2478.76,
+      "text": "So there are specific greedy ascent algorithms",
+      "confidence": -0.2573
+    },
+    {
+      "start": 2478.76,
+      "end": 2481.68,
+      "text": "and specific matrices where, if I give you",
+      "confidence": -0.2573
+    },
+    {
+      "start": 2481.68,
+      "end": 2484.68,
+      "text": "the code for the algorithm and I give you a specific matrix,",
+      "confidence": -0.2573
+    },
+    {
+      "start": 2484.68,
+      "end": 2488.2,
+      "text": "that I could make you touch all of these elements.",
+      "confidence": -0.1459
+    },
+    {
+      "start": 2488.2,
+      "end": 2488.8799999999997,
+      "text": "That's correct.",
+      "confidence": -0.1459
+    },
+    {
+      "start": 2488.8799999999997,
+      "end": 2490.6,
+      "text": "So if you're talking about worst case,",
+      "confidence": -0.1459
+    },
+    {
+      "start": 2490.6,
+      "end": 2493.08,
+      "text": "you're being very paranoid when you talk about worst case",
+      "confidence": -0.1459
+    },
+    {
+      "start": 2493.08,
+      "end": 2494.52,
+      "text": "complexity.",
+      "confidence": -0.1459
+    },
+    {
+      "start": 2494.52,
+      "end": 2499.08,
+      "text": "And so I'm hand waving a bit here simply",
+      "confidence": -0.1459
+    },
+    {
+      "start": 2499.08,
+      "end": 2502.3999999999996,
+      "text": "because I haven't given you the specifics of the algorithm yet.",
+      "confidence": -0.1459
+    },
+    {
+      "start": 2502.3999999999996,
+      "end": 2504.68,
+      "text": "This is really a set of algorithms",
+      "confidence": -0.1459
+    },
+    {
+      "start": 2504.68,
+      "end": 2506.18,
+      "text": "because I haven't given you the code.",
+      "confidence": -0.1459
+    },
+    {
+      "start": 2506.18,
+      "end": 2507.64,
+      "text": "I haven't told you where it starts",
+      "confidence": -0.1459
+    },
+    {
+      "start": 2507.64,
+      "end": 2509.04,
+      "text": "and which direction it goes.",
+      "confidence": -0.1459
+    },
+    {
+      "start": 2509.04,
+      "end": 2512.3399999999997,
+      "text": "But you go do that, fix it, and I",
+      "confidence": -0.1459
+    },
+    {
+      "start": 2512.3399999999997,
+      "end": 2514.44,
+      "text": "would be the person who tries to find the worst case",
+      "confidence": -0.1459
+    },
+    {
+      "start": 2514.52,
+      "end": 2515.4,
+      "text": "complexity.",
+      "confidence": -0.1587
+    },
+    {
+      "start": 2515.4,
+      "end": 2518.56,
+      "text": "Certainly, it's very easy to get to theta nm",
+      "confidence": -0.1587
+    },
+    {
+      "start": 2518.56,
+      "end": 2523.2000000000003,
+      "text": "in terms of having some constant multiplying n times m.",
+      "confidence": -0.1587
+    },
+    {
+      "start": 2523.2000000000003,
+      "end": 2525.8,
+      "text": "But you can definitely get to that constant",
+      "confidence": -0.1587
+    },
+    {
+      "start": 2525.8,
+      "end": 2529.92,
+      "text": "being very close to 1, OK?",
+      "confidence": -0.1587
+    },
+    {
+      "start": 2529.92,
+      "end": 2531.36,
+      "text": "If not 1.",
+      "confidence": -0.1587
+    },
+    {
+      "start": 2531.36,
+      "end": 2532.2000000000003,
+      "text": "All right.",
+      "confidence": -0.1587
+    },
+    {
+      "start": 2532.2000000000003,
+      "end": 2535.84,
+      "text": "So let's talk about divide and conquer.",
+      "confidence": -0.1587
+    },
+    {
+      "start": 2535.84,
+      "end": 2539.2400000000002,
+      "text": "Let's say that I did something like this",
+      "confidence": -0.1587
+    },
+    {
+      "start": 2539.2400000000002,
+      "end": 2542.76,
+      "text": "where I just tried to jam the binary search",
+      "confidence": -0.1587
+    },
+    {
+      "start": 2542.76,
+      "end": 2546.5600000000004,
+      "text": "algorithm into the 2D version.",
+      "confidence": -0.3288
+    },
+    {
+      "start": 2546.5600000000004,
+      "end": 2547.0600000000004,
+      "text": "All right.",
+      "confidence": -0.3288
+    },
+    {
+      "start": 2557.76,
+      "end": 2564.0800000000004,
+      "text": "So what I'm going to do is I'm going",
+      "confidence": -0.3288
+    },
+    {
+      "start": 2564.2799999999997,
+      "end": 2575.4,
+      "text": "to pick the middle column, j equals m over 2.",
+      "confidence": -0.1335
+    },
+    {
+      "start": 2575.4,
+      "end": 2581.84,
+      "text": "And I'm going to find a 1D peak using whatever algorithm I want.",
+      "confidence": -0.1335
+    },
+    {
+      "start": 2581.84,
+      "end": 2584.84,
+      "text": "And I'll probably end up using the more efficient algorithm,",
+      "confidence": -0.1335
+    },
+    {
+      "start": 2584.84,
+      "end": 2588.2,
+      "text": "the binary search version that's gone all the way",
+      "confidence": -0.1335
+    },
+    {
+      "start": 2588.2,
+      "end": 2590.44,
+      "text": "to the left of the board there.",
+      "confidence": -0.1335
+    },
+    {
+      "start": 2590.44,
+      "end": 2593.92,
+      "text": "And let's say I find a binary peak at i, j.",
+      "confidence": -0.1335
+    },
+    {
+      "start": 2593.92,
+      "end": 2597.04,
+      "text": "Because I've picked a column, and I'm just finding a 1D peak.",
+      "confidence": -0.194
+    },
+    {
+      "start": 2600.28,
+      "end": 2603.48,
+      "text": "So this is j equals m over 2.",
+      "confidence": -0.194
+    },
+    {
+      "start": 2603.48,
+      "end": 2605.6800000000003,
+      "text": "That's i.",
+      "confidence": -0.194
+    },
+    {
+      "start": 2605.6800000000003,
+      "end": 2618.7200000000003,
+      "text": "Now, I use ij, in particular, rho i as a start",
+      "confidence": -0.194
+    },
+    {
+      "start": 2618.7200000000003,
+      "end": 2621.88,
+      "text": "to find a 1D peak on rho i.",
+      "confidence": -0.194
+    },
+    {
+      "start": 2623.92,
+      "end": 2630.56,
+      "text": "And I stand up here, and I'm really happy.",
+      "confidence": -0.2259
+    },
+    {
+      "start": 2630.56,
+      "end": 2633.32,
+      "text": "Because I say, wow.",
+      "confidence": -0.2259
+    },
+    {
+      "start": 2633.32,
+      "end": 2635.28,
+      "text": "I picked a middle column.",
+      "confidence": -0.2259
+    },
+    {
+      "start": 2635.28,
+      "end": 2636.84,
+      "text": "I found a 1D peak.",
+      "confidence": -0.2259
+    },
+    {
+      "start": 2636.84,
+      "end": 2641.36,
+      "text": "That is theta n complexity to find a 1D peak, as we argued.",
+      "confidence": -0.2259
+    },
+    {
+      "start": 2641.36,
+      "end": 2644.96,
+      "text": "And one side, theta m.",
+      "confidence": -0.2259
+    },
+    {
+      "start": 2647.96,
+      "end": 2648.6800000000003,
+      "text": "Oh, I'm sorry.",
+      "confidence": -0.2259
+    },
+    {
+      "start": 2648.6800000000003,
+      "end": 2649.76,
+      "text": "You're right.",
+      "confidence": -0.2259
+    },
+    {
+      "start": 2649.76,
+      "end": 2653.48,
+      "text": "The log n complexity, that's what this was.",
+      "confidence": -0.2259
+    },
+    {
+      "start": 2654.48,
+      "end": 2656.48,
+      "text": "Yeah, log n complexity.",
+      "confidence": -0.1877
+    },
+    {
+      "start": 2656.48,
+      "end": 2658.92,
+      "text": "Thanks, Eric.",
+      "confidence": -0.1877
+    },
+    {
+      "start": 2658.92,
+      "end": 2666.12,
+      "text": "And then once I do that, I can find a 1D peak on rho i.",
+      "confidence": -0.1877
+    },
+    {
+      "start": 2666.12,
+      "end": 2668.8,
+      "text": "In this case, the rho i would be m wide.",
+      "confidence": -0.1877
+    },
+    {
+      "start": 2668.8,
+      "end": 2670.64,
+      "text": "So it'd be log m complexity.",
+      "confidence": -0.1877
+    },
+    {
+      "start": 2670.64,
+      "end": 2673.84,
+      "text": "If n equals m, then I have a couple of steps of log n,",
+      "confidence": -0.1877
+    },
+    {
+      "start": 2673.84,
+      "end": 2676.04,
+      "text": "and I'm done.",
+      "confidence": -0.1877
+    },
+    {
+      "start": 2676.04,
+      "end": 2678.32,
+      "text": "Am I done?",
+      "confidence": -0.1877
+    },
+    {
+      "start": 2678.32,
+      "end": 2679.44,
+      "text": "No.",
+      "confidence": -0.1877
+    },
+    {
+      "start": 2679.44,
+      "end": 2683.28,
+      "text": "Can someone tell me why I'm not done precisely?",
+      "confidence": -0.1877
+    },
+    {
+      "start": 2684.28,
+      "end": 2689.1600000000003,
+      "text": "Because when you do the second part to find out the peak in rho",
+      "confidence": -0.2979
+    },
+    {
+      "start": 2689.1600000000003,
+      "end": 2692.36,
+      "text": "i, you might not have that column peak anymore.",
+      "confidence": -0.2979
+    },
+    {
+      "start": 2692.36,
+      "end": 2694.32,
+      "text": "They might not be a peak on the column anymore.",
+      "confidence": -0.2979
+    },
+    {
+      "start": 2694.32,
+      "end": 2696.2400000000002,
+      "text": "That's exactly correct.",
+      "confidence": -0.2979
+    },
+    {
+      "start": 2696.2400000000002,
+      "end": 2699.84,
+      "text": "So this algorithm is incorrect.",
+      "confidence": -0.2979
+    },
+    {
+      "start": 2699.84,
+      "end": 2701.48,
+      "text": "It doesn't work.",
+      "confidence": -0.2979
+    },
+    {
+      "start": 2701.48,
+      "end": 2703.6000000000004,
+      "text": "It's efficient but incorrect.",
+      "confidence": -0.2979
+    },
+    {
+      "start": 2706.48,
+      "end": 2707.6000000000004,
+      "text": "You want to be correct.",
+      "confidence": -0.2979
+    },
+    {
+      "start": 2707.6000000000004,
+      "end": 2710.1200000000003,
+      "text": "Being correct and inefficient is definitely",
+      "confidence": -0.2979
+    },
+    {
+      "start": 2710.3199999999997,
+      "end": 2713.16,
+      "text": "better than being inefficient.",
+      "confidence": -0.2006
+    },
+    {
+      "start": 2713.16,
+      "end": 2715.64,
+      "text": "I'm sorry, being incorrect and efficient.",
+      "confidence": -0.2006
+    },
+    {
+      "start": 2715.64,
+      "end": 2718.2799999999997,
+      "text": "So this is an efficient algorithm in the sense",
+      "confidence": -0.2006
+    },
+    {
+      "start": 2718.2799999999997,
+      "end": 2722.88,
+      "text": "that it would only take log n time, but it doesn't work.",
+      "confidence": -0.2006
+    },
+    {
+      "start": 2722.88,
+      "end": 2726.64,
+      "text": "And I'll give you a simple example here",
+      "confidence": -0.2006
+    },
+    {
+      "start": 2726.64,
+      "end": 2727.56,
+      "text": "where it doesn't work.",
+      "confidence": -0.2006
+    },
+    {
+      "start": 2727.56,
+      "end": 2746.08,
+      "text": "So the problem is a 2D peak may not exist on rho i.",
+      "confidence": -0.1883
+    },
+    {
+      "start": 2746.08,
+      "end": 2747.52,
+      "text": "And here's an example of that.",
+      "confidence": -0.1883
+    },
+    {
+      "start": 2747.52,
+      "end": 2758.28,
+      "text": "Actually, this is exactly the example of that.",
+      "confidence": -0.1953
+    },
+    {
+      "start": 2758.28,
+      "end": 2762.64,
+      "text": "Let's say that I started with this rho.",
+      "confidence": -0.1953
+    },
+    {
+      "start": 2762.64,
+      "end": 2765.16,
+      "text": "Since I'm starting with the middle rho,",
+      "confidence": -0.1953
+    },
+    {
+      "start": 2765.16,
+      "end": 2767.0,
+      "text": "and I could start with this one or that one.",
+      "confidence": -0.1953
+    },
+    {
+      "start": 2767.0,
+      "end": 2770.64,
+      "text": "Let's say I started with that one.",
+      "confidence": -0.1953
+    },
+    {
+      "start": 2770.64,
+      "end": 2776.36,
+      "text": "I end up finding a peak.",
+      "confidence": -0.1953
+    },
+    {
+      "start": 2776.36,
+      "end": 2782.32,
+      "text": "And if this were 10 up here, I choose 12 as a peak.",
+      "confidence": -0.0959
+    },
+    {
+      "start": 2782.32,
+      "end": 2786.28,
+      "text": "And it's quite possible that I've returned 12 as a peak,",
+      "confidence": -0.0959
+    },
+    {
+      "start": 2786.28,
+      "end": 2787.88,
+      "text": "even though 19 is bigger, because 12",
+      "confidence": -0.0959
+    },
+    {
+      "start": 2787.88,
+      "end": 2790.36,
+      "text": "is a peak given 10 and 11 up here.",
+      "confidence": -0.0959
+    },
+    {
+      "start": 2790.36,
+      "end": 2793.0,
+      "text": "And then when I choose this particular rho",
+      "confidence": -0.0959
+    },
+    {
+      "start": 2793.0,
+      "end": 2796.6800000000003,
+      "text": "and I find a peak on this rho, it would be 14.",
+      "confidence": -0.0959
+    },
+    {
+      "start": 2796.6800000000003,
+      "end": 2802.76,
+      "text": "That is a 1D peak on this rho, but 14 is not a 2D peak.",
+      "confidence": -0.0959
+    },
+    {
+      "start": 2802.8,
+      "end": 2807.6400000000003,
+      "text": "So this particular example, 14 would return 14.",
+      "confidence": -0.187
+    },
+    {
+      "start": 2807.6400000000003,
+      "end": 2809.6800000000003,
+      "text": "And 14 is not a 2D peak.",
+      "confidence": -0.187
+    },
+    {
+      "start": 2813.7200000000003,
+      "end": 2817.48,
+      "text": "You can collect your cushion after the class.",
+      "confidence": -0.187
+    },
+    {
+      "start": 2817.48,
+      "end": 2821.88,
+      "text": "So not so good.",
+      "confidence": -0.187
+    },
+    {
+      "start": 2821.88,
+      "end": 2826.1600000000003,
+      "text": "Looked like an efficient algorithm, but doesn't work.",
+      "confidence": -0.187
+    },
+    {
+      "start": 2826.1600000000003,
+      "end": 2829.1600000000003,
+      "text": "So how can we get to something that actually works?",
+      "confidence": -0.187
+    },
+    {
+      "start": 2829.16,
+      "end": 2834.2799999999997,
+      "text": "So the last algorithm that I'm going to show you,",
+      "confidence": -0.099
+    },
+    {
+      "start": 2834.2799999999997,
+      "end": 2841.12,
+      "text": "and you'll see four different algorithms in your problem set,",
+      "confidence": -0.099
+    },
+    {
+      "start": 2841.12,
+      "end": 2843.44,
+      "text": "that you'll have to analyze the complexity for",
+      "confidence": -0.099
+    },
+    {
+      "start": 2843.44,
+      "end": 2848.16,
+      "text": "and decide if they're efficient and if they're correct.",
+      "confidence": -0.099
+    },
+    {
+      "start": 2848.16,
+      "end": 2854.7999999999997,
+      "text": "But here's a recursive version that",
+      "confidence": -0.099
+    },
+    {
+      "start": 2854.7999999999997,
+      "end": 2858.64,
+      "text": "is better in terms of complexity than the greedy ascent",
+      "confidence": -0.099
+    },
+    {
+      "start": 2858.72,
+      "end": 2860.12,
+      "text": "algorithm.",
+      "confidence": -0.2689
+    },
+    {
+      "start": 2860.12,
+      "end": 2863.4,
+      "text": "And this one works.",
+      "confidence": -0.2689
+    },
+    {
+      "start": 2863.4,
+      "end": 2866.52,
+      "text": "So what I'm going to do is pick a middle column.",
+      "confidence": -0.2689
+    },
+    {
+      "start": 2869.72,
+      "end": 2871.3599999999997,
+      "text": "J equals m over 2 as before.",
+      "confidence": -0.2689
+    },
+    {
+      "start": 2874.04,
+      "end": 2885.4,
+      "text": "I'm going to find the global maximum on column J.",
+      "confidence": -0.2689
+    },
+    {
+      "start": 2885.4,
+      "end": 2886.44,
+      "text": "And that's going to be at ij.",
+      "confidence": -0.1955
+    },
+    {
+      "start": 2889.56,
+      "end": 2900.44,
+      "text": "I'm going to compare i comma j minus 1, i comma j, and ij plus 1.",
+      "confidence": -0.1955
+    },
+    {
+      "start": 2900.44,
+      "end": 2904.2400000000002,
+      "text": "Which means that once I've found the maximum in this rho,",
+      "confidence": -0.1955
+    },
+    {
+      "start": 2904.2400000000002,
+      "end": 2907.92,
+      "text": "I'm going to look to the left and the right and compare.",
+      "confidence": -0.1955
+    },
+    {
+      "start": 2907.92,
+      "end": 2916.64,
+      "text": "I'm going to pick the left columns if i comma j minus 1",
+      "confidence": -0.1519
+    },
+    {
+      "start": 2916.64,
+      "end": 2920.88,
+      "text": "is greater than i comma j.",
+      "confidence": -0.1519
+    },
+    {
+      "start": 2920.88,
+      "end": 2922.36,
+      "text": "And similarly for the right.",
+      "confidence": -0.1519
+    },
+    {
+      "start": 2929.48,
+      "end": 2937.56,
+      "text": "And if in fact either of these two conditions don't fire,",
+      "confidence": -0.1519
+    },
+    {
+      "start": 2937.56,
+      "end": 2942.52,
+      "text": "and what I have is i comma j is greater than or equal to i",
+      "confidence": -0.1048
+    },
+    {
+      "start": 2942.52,
+      "end": 2947.56,
+      "text": "comma j minus 1 and i comma j plus 1, then I'm done.",
+      "confidence": -0.1048
+    },
+    {
+      "start": 2947.56,
+      "end": 2952.72,
+      "text": "Just like I had for the 1D version,",
+      "confidence": -0.1048
+    },
+    {
+      "start": 2952.72,
+      "end": 2959.32,
+      "text": "if i comma j is greater than or equal to i comma j minus 1",
+      "confidence": -0.1048
+    },
+    {
+      "start": 2959.32,
+      "end": 2969.4,
+      "text": "and i comma j plus 1, that implies ij is a 2D peak.",
+      "confidence": -0.1062
+    },
+    {
+      "start": 2969.4,
+      "end": 2972.96,
+      "text": "And the reason that's the case is because i comma j",
+      "confidence": -0.1062
+    },
+    {
+      "start": 2972.96,
+      "end": 2976.0,
+      "text": "was the maximum element in that column.",
+      "confidence": -0.1062
+    },
+    {
+      "start": 2976.0,
+      "end": 2978.44,
+      "text": "So you know that you've compared it to all",
+      "confidence": -0.1062
+    },
+    {
+      "start": 2978.44,
+      "end": 2981.52,
+      "text": "of the adjacent elements looking up and looking down.",
+      "confidence": -0.1062
+    },
+    {
+      "start": 2981.52,
+      "end": 2983.0,
+      "text": "That's the maximum element.",
+      "confidence": -0.1062
+    },
+    {
+      "start": 2983.0,
+      "end": 2985.1200000000003,
+      "text": "Now you've looked at the left and the right.",
+      "confidence": -0.1062
+    },
+    {
+      "start": 2985.1200000000003,
+      "end": 2987.7200000000003,
+      "text": "And in fact, it's greater than or equal to the elements",
+      "confidence": -0.1062
+    },
+    {
+      "start": 2987.7200000000003,
+      "end": 2989.1200000000003,
+      "text": "on the left and the right.",
+      "confidence": -0.1062
+    },
+    {
+      "start": 2989.24,
+      "end": 2992.2799999999997,
+      "text": "And so therefore it's a 2D peak.",
+      "confidence": -0.2048
+    },
+    {
+      "start": 2992.2799999999997,
+      "end": 2997.8399999999997,
+      "text": "So in this case, when you pick the left or the right columns,",
+      "confidence": -0.2048
+    },
+    {
+      "start": 2997.8399999999997,
+      "end": 2999.3199999999997,
+      "text": "you'll pick one of them.",
+      "confidence": -0.2048
+    },
+    {
+      "start": 2999.3199999999997,
+      "end": 3007.3199999999997,
+      "text": "You're going to solve the new problem with half",
+      "confidence": -0.2048
+    },
+    {
+      "start": 3007.3199999999997,
+      "end": 3008.3599999999997,
+      "text": "the number of columns.",
+      "confidence": -0.2048
+    },
+    {
+      "start": 3008.36,
+      "end": 3017.56,
+      "text": "All right?",
+      "confidence": -0.1203
+    },
+    {
+      "start": 3017.56,
+      "end": 3021.1200000000003,
+      "text": "And again, you have to go through an analysis",
+      "confidence": -0.1203
+    },
+    {
+      "start": 3021.1200000000003,
+      "end": 3024.92,
+      "text": "or an argument to make sure that this algorithm is correct.",
+      "confidence": -0.1203
+    },
+    {
+      "start": 3024.92,
+      "end": 3028.1600000000003,
+      "text": "But it's intuitively correct simply",
+      "confidence": -0.1203
+    },
+    {
+      "start": 3028.1600000000003,
+      "end": 3033.1600000000003,
+      "text": "because it matches the 1D version much more closely.",
+      "confidence": -0.1203
+    },
+    {
+      "start": 3033.1600000000003,
+      "end": 3035.6,
+      "text": "And you also have your condition where",
+      "confidence": -0.1203
+    },
+    {
+      "start": 3035.6,
+      "end": 3039.7999999999997,
+      "text": "you break away right here where you have a 2D peak, just",
+      "confidence": -0.13
+    },
+    {
+      "start": 3039.7999999999997,
+      "end": 3041.16,
+      "text": "like the 1D version.",
+      "confidence": -0.13
+    },
+    {
+      "start": 3041.16,
+      "end": 3043.92,
+      "text": "And what you've done is break this matrix up",
+      "confidence": -0.13
+    },
+    {
+      "start": 3043.92,
+      "end": 3046.2,
+      "text": "into half the size.",
+      "confidence": -0.13
+    },
+    {
+      "start": 3046.2,
+      "end": 3051.12,
+      "text": "And that's essentially why this algorithm works.",
+      "confidence": -0.13
+    },
+    {
+      "start": 3051.12,
+      "end": 3063.8399999999997,
+      "text": "When you have a single column, find the global maximum.",
+      "confidence": -0.1354
+    },
+    {
+      "start": 3067.44,
+      "end": 3070.12,
+      "text": "And you're done.",
+      "confidence": -0.1354
+    },
+    {
+      "start": 3070.12,
+      "end": 3072.56,
+      "text": "So that's the base case.",
+      "confidence": -0.1354
+    },
+    {
+      "start": 3072.56,
+      "end": 3074.68,
+      "text": "So let me end with just writing out",
+      "confidence": -0.1354
+    },
+    {
+      "start": 3074.68,
+      "end": 3077.7999999999997,
+      "text": "what the recurrence relation for the complexity of this",
+      "confidence": -0.1354
+    },
+    {
+      "start": 3078.44,
+      "end": 3082.6000000000004,
+      "text": "and argue what the overall complexity of this algorithm",
+      "confidence": -0.2485
+    },
+    {
+      "start": 3082.6000000000004,
+      "end": 3083.1000000000004,
+      "text": "is.",
+      "confidence": -0.2485
+    },
+    {
+      "start": 3085.5600000000004,
+      "end": 3086.96,
+      "text": "And then I'll give you the bad news.",
+      "confidence": -0.2485
+    },
+    {
+      "start": 3090.92,
+      "end": 3093.44,
+      "text": "All right, so overall what you have",
+      "confidence": -0.2485
+    },
+    {
+      "start": 3093.44,
+      "end": 3100.2000000000003,
+      "text": "is you have something like T of n, m equals T of n, m over 2",
+      "confidence": -0.2485
+    },
+    {
+      "start": 3100.2000000000003,
+      "end": 3102.52,
+      "text": "plus theta n.",
+      "confidence": -0.2485
+    },
+    {
+      "start": 3102.52,
+      "end": 3103.6000000000004,
+      "text": "Why is that?",
+      "confidence": -0.2485
+    },
+    {
+      "start": 3103.6000000000004,
+      "end": 3105.36,
+      "text": "Well, n is the number of rows.",
+      "confidence": -0.2485
+    },
+    {
+      "start": 3105.36,
+      "end": 3107.8,
+      "text": "m is the number of columns.",
+      "confidence": -0.1323
+    },
+    {
+      "start": 3107.8,
+      "end": 3111.4,
+      "text": "In one case, you will be breaking things down",
+      "confidence": -0.1323
+    },
+    {
+      "start": 3111.4,
+      "end": 3114.6,
+      "text": "into half the number of columns, which is m over 2.",
+      "confidence": -0.1323
+    },
+    {
+      "start": 3114.6,
+      "end": 3117.48,
+      "text": "And in order to find the global maximum,",
+      "confidence": -0.1323
+    },
+    {
+      "start": 3117.48,
+      "end": 3119.92,
+      "text": "you'll be doing theta n work because you're",
+      "confidence": -0.1323
+    },
+    {
+      "start": 3119.92,
+      "end": 3121.8,
+      "text": "finding the global maximum.",
+      "confidence": -0.1323
+    },
+    {
+      "start": 3121.8,
+      "end": 3122.8,
+      "text": "You just have to scan it.",
+      "confidence": -0.1323
+    },
+    {
+      "start": 3126.92,
+      "end": 3128.8,
+      "text": "That's what it's going to take.",
+      "confidence": -0.1323
+    },
+    {
+      "start": 3128.8,
+      "end": 3131.92,
+      "text": "And so if you do that and you go run through",
+      "confidence": -0.1323
+    },
+    {
+      "start": 3131.92,
+      "end": 3136.2000000000003,
+      "text": "and you know that T of n1 is theta n, which",
+      "confidence": -0.1755
+    },
+    {
+      "start": 3136.2000000000003,
+      "end": 3139.32,
+      "text": "is this last part over here.",
+      "confidence": -0.1755
+    },
+    {
+      "start": 3139.32,
+      "end": 3140.88,
+      "text": "That's your base case.",
+      "confidence": -0.1755
+    },
+    {
+      "start": 3140.88,
+      "end": 3149.44,
+      "text": "You get T of n, m is theta of n added to theta of n log of m",
+      "confidence": -0.1755
+    },
+    {
+      "start": 3149.44,
+      "end": 3161.4,
+      "text": "times log 2 of m times, which is theta of n log 2 of n.",
+      "confidence": -0.1755
+    },
+    {
+      "start": 3162.92,
+      "end": 3163.64,
+      "text": "All right?",
+      "confidence": -0.1573
+    },
+    {
+      "start": 3163.64,
+      "end": 3168.12,
+      "text": "So you're not done with peak finding.",
+      "confidence": -0.1573
+    },
+    {
+      "start": 3168.12,
+      "end": 3173.04,
+      "text": "What you'll see is four algorithms coded in Python.",
+      "confidence": -0.1573
+    },
+    {
+      "start": 3173.04,
+      "end": 3175.28,
+      "text": "I'm not going to give away what those algorithms are,",
+      "confidence": -0.1573
+    },
+    {
+      "start": 3175.28,
+      "end": 3177.08,
+      "text": "but you'll have to recognize them.",
+      "confidence": -0.1573
+    },
+    {
+      "start": 3177.08,
+      "end": 3180.2000000000003,
+      "text": "You will have seen versions of those algorithms",
+      "confidence": -0.1573
+    },
+    {
+      "start": 3180.2000000000003,
+      "end": 3181.84,
+      "text": "already in lecture.",
+      "confidence": -0.1573
+    },
+    {
+      "start": 3181.84,
+      "end": 3186.04,
+      "text": "And your job is going to be to analyze the algorithms,",
+      "confidence": -0.1573
+    },
+    {
+      "start": 3186.04,
+      "end": 3189.6800000000003,
+      "text": "as I said before, prove that one of them is correct,",
+      "confidence": -0.1573
+    },
+    {
+      "start": 3189.68,
+      "end": 3193.04,
+      "text": "and find counter examples for the ones that aren't correct.",
+      "confidence": -0.1893
+    },
+    {
+      "start": 3193.04,
+      "end": 3195.0,
+      "text": "The core staff will stick around here",
+      "confidence": -0.1893
+    },
+    {
+      "start": 3195.0,
+      "end": 3197.12,
+      "text": "to answer questions, logistical questions,",
+      "confidence": -0.1893
+    },
+    {
+      "start": 3197.12,
+      "end": 3199.0,
+      "text": "or questions about lecture.",
+      "confidence": -0.1893
+    },
+    {
+      "start": 3199.0,
+      "end": 3201.48,
+      "text": "And I owe that gentleman a cushion.",
+      "confidence": -0.1893
+    }
+  ],
+  "warnings": []
+}

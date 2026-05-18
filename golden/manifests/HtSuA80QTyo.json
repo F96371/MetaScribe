@@ -1,0 +1,44 @@
+{
+  "video_id": "HtSuA80QTyo",
+  "title": "Lecture 1: Algorithmic Thinking, Peak Finding",
+  "duration_seconds": 3201.044917,
+  "frozen_at": "2026-05-18T00:00:00Z",
+  "schema_versions": {
+    "transcript_version": "v1",
+    "semantic_version": "v1",
+    "prompt_version": "v1",
+    "visual_version": "v1",
+    "render_version": "v1"
+  },
+  "file_hashes": {
+    "metadata.json": "d9e0ba191ec54024300dca1e8e298ae8f10a31a3bf85251c927837aa2a7c86d3",
+    "segments.json": "77cf44484bb89a7fd422d92fab0a7f6ab9b21469368da5ee80321b0f070579ff",
+    "index.html": "dd80cfed382b63b01be0592e9807e955c47cfa10afe8df6db53675c5e7cc71d1"
+  },
+  "metrics": {
+    "segment_count": 868,
+    "transcript_warnings": 0,
+    "metadata_warnings": 0,
+    "chapter_count": 9,
+    "total_points": 95,
+    "points_by_type": {
+      "context": 32,
+      "conclusion": 28,
+      "problem": 11,
+      "step": 21,
+      "pitfall": 3
+    },
+    "semantic_warnings": 0,
+    "visual_count": 9,
+    "skipped_count": 0,
+    "visual_warnings": 0,
+    "visual_type_distribution": {
+      "chain": 3,
+      "flowchart": 5,
+      "layered": 1
+    },
+    "html_size_bytes": 107935,
+    "html_svg_count": 9,
+    "html_chapter_sections": 9
+  }
+}

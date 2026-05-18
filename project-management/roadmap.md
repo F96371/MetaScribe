@@ -22,12 +22,20 @@
 
 ---
 
-## Phase 3 — semantic
+## Phase 3 — semantic (IN PROGRESS)
 
-- [ ] 章节结构化
-- [ ] 问题 / 陷阱 / 步骤 / 结论 拆解
-- [ ] 信息密度控制
-- [ ] chapters.json
+- [x] semantic.json schema 契约
+- [x] SegmentRef 可追溯引用 (segment_id + ts + quote)
+- [x] InfoPoint 五类型拆解 (problem / step / pitfall / conclusion / context)
+- [x] 章节结构化（原生章节 + LLM 检测回退）
+- [x] LLM Provider 抽象层（Anthropic-compatible / DeepSeek 等）
+- [x] Prompt 版本管理 (prompts.py + PROMPTS 注册表)
+- [x] 信息密度控制（无则留空，禁止泛化）
+- [x] warnings 机制（低置信度 / 空章节 / JSON 容错）
+- [x] 短视频测试 (19s, PASS)
+- [x] 中视频测试 (8min, PASS)
+- [ ] 长视频测试 (53min, RUNNING)
+- [ ] 验收冻结
 
 ---
 
